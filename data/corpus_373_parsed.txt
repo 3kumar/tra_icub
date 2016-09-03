@@ -1,0 +1,373 @@
+put the cross right # X1-P1 X2-S1 X3-L1
+push the triangle left # X1-P1 X2-S1 X3-L1
+point to the triangle touch the circle # X1-P1 X2-S1 X3-P2 X4-S2
+push the triangle to the left then push the cross to the left # X1-P1 X2-S1 X3-L1 X4-P2 X6-L2 X5-S2
+put the cross on my right # X1-P1 X2-S1 X3-L1
+push the triangle on my left # X1-P1 X2-S1 X3-L1
+put the circle to the left and push the cross to the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+push the triangle to the middle and put the circle to the middle # X1-P1 X2-S1 X3-L1 X6-L2 X4-P2 X5-S2
+push the circle to the left and move the cross to the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+point the circle # X1-P1 X2-S1
+grasp the cross # X1-P1 X2-S1
+touch the cross # X1-P1 X2-S1
+put the cross to the right # X1-P1 X2-S1 X3-L1
+push the triangle to the left # X1-P1 X2-S1 X3-L1
+point the triangle before grasping the circle # X1-P1 X2-S1 X3-P2 X4-S2
+point the triangle before touching the circle # X1-P1 X2-S1 X3-P2 X4-S2
+grasp the cross before pointing the circle # X1-P1 X2-S1 X3-P2 X4-S2
+touch the cross before pointing at the circle # X1-P1 X2-S1 X3-P2 X4-S2
+grasp the cross before pointing at it # X1-P1 X2-S1 X2-S2 X3-P2
+touch the circle then point at it # X1-P1 X2-S1 X2-S2 X3-P2
+point to the triangle and then grasp it # X1-P1 X2-S1 X2-S2 X3-P2
+touch the triangle after having pointed at it # X2-S1 X3-P1 X1-P2 X2-S2
+grasp the triangle before grasping the cross # X1-P1 X2-S1 X3-P2 X4-S2
+touch the triangle before touching the cross # X1-P1 X2-S1 X3-P2 X4-S2
+point at the circle after having pointed at the cross # X3-P1 X4-S1 X1-P2 X2-S2
+point twice at the cross # X1-P1 X2-S1 X1-P2 X2-S2
+grasp the circle twice # X1-P1 X2-S1 X1-P2 X2-S2
+touch the circle then touch it again # X1-P1 X2-S1 X3-P2 X2-S2
+touch the triangle before putting the circle in the middle # X1-P1 X2-S1 X3-P2 X4-S2 X5-L2
+put the cross to the left before grasping the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+touch the circle after having put the cross to the left # X3-P1 X4-S1 X5-L1 X1-P2 X2-S2
+put the cross to the right then point at it # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2
+grasp the triangle before having put it to the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+touch the triangle then put it to the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+put the triangle in the middle then put the cross to the right # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the circle to the left before pushing the cross to the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+push the circle to the left then put the cross in the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+push the cross to the middle then put it back to the right # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2 X5-L2
+put the triangle to the left then push it to the middle # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2 X5-L2
+first push the cross to the right then push the triangle to the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+firstly put the triangle in the middle then put the circle to the left # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the cross to the right then push it around # X1-P1 X2-S1 X3-L1 X2-S2 X3-L2 X4-P2
+push the triangle in the middle then put circle in the middle # X1-P1 X2-S1 X3-L1 X6-L2 X4-P2 X5-S2
+push the triangle and the cross to the left # X1-P1 X2-S1 X4-L1 X1-P2 X3-S2 X4-L2
+put both the circle and the cross to the right # X1-P1 X2-S1 X4-L1 X1-P2 X3-S2 X4-L2
+put the triangle in the middle then put the triangle to the left # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+push the circle to the right before pushing it to the left # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2 X5-L2
+point the circle with your index finger # X1-P1 X2-S1
+could you please grasp the cross # X1-P1 X2-S1
+touch the cross with your palm # X1-P1 X2-S1
+could you slowly put the cross to the right # X1-P1 X2-S1 X3-L1
+using your fingers push the triangle to the left # X1-P1 X2-S1 X3-L1
+point the triangle before grasping the circle with the same hand # X1-P1 X2-S1 X3-P2 X4-S2
+touch the circle after having pointed the triangle # X3-P1 X4-S1 X1-P2 X2-S2
+grasp the cross then point at the circle # X1-P1 X2-S1 X3-P2 X4-S2
+before pointing at the circle touch the cross # X3-P1 X4-S1 X1-P2 X2-S2
+before pointing at the circle grasp it # X2-S1 X3-P1 X1-P2 X2-S2
+before pointing at the circle touch at the circle # X2-S1 X3-P1 X1-P2 X4-S2
+before grasping the triangle point at it # X2-S1 X3-P1 X1-P2 X2-S2
+point at the triangle then touch the triangle # X1-P1 X2-S1 X4-S2 X3-P2
+grasp the triangle then the cross # X1-P1 X2-S1 X1-P2 X3-S2
+touch the cross after having touch the triangle # X1-P1 X4-S1 X3-P2 X2-S2
+point at the cross then point at the circle # X1-P1 X2-S1 X3-P2 X4-S2
+point at the cross two times in a row # X1-P1 X2-S1 X1-P2 X2-S2
+grasp the circle two times # X1-P1 X2-S1 X1-P2 X2-S2
+touch the circle twice # X1-P1 X2-S1 X1-P2 X2-S2
+put the circle at the middle before putting the triangle in the middle # X1-P1 X2-S1 X3-L1 X6-L2 X4-P2 X5-S2
+put the cross to the left then grasp the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+put the cross to the left before touching the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+point at the cross after having put it to the right # X2-S1 X3-P1 X4-L1 X1-P2 X2-S2
+grasp the triangle then put it to the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+put the triangle to the left after having touched it # X2-S1 X4-P1 X1-P2 X2-S2 X3-L2
+before putting the cross to the right put the triangle in the middle # X4-P1 X5-S1 X6-L1 X1-P2 X2-S2 X3-L2
+push the cross in the middle after putting the circle on the left # X4-P1 X5-S1 X6-L1 X1-P2 X2-S2 X3-L2
+put the cross in the middle when you have pushed the circle to the left # X4-P1 X5-S1 X6-L1 X1-P2 X2-S2 X3-L2
+put the circle back to the right after having pushed it to the middle # X2-S1 X4-P1 X5-L1 X1-P2 X2-S2 X3-L2
+push the triangle in the middle after having put it to the left # X2-S1 X4-P1 X5-L1 X1-P2 X2-S2 X3-L2
+push the triangle in the middle after having pushed the cross to the right # X4-P1 X5-S1 X6-L1 X1-P2 X2-S2 X3-L2
+put the circle to the left after having first put the triangle in the middle # X1-P1 X5-S1 X6-L1 X4-P2 X2-S2 X3-L2
+push the cross after having put it to the right # X2-S1 X3-P1 X4-L1 X1-P2 X2-S2
+first push the triangle in the middle then put the circle in the middle # X1-P1 X2-S1 X3-L1 X6-L2 X4-P2 X5-S2
+push the triangle to the left then push also the cross to the left # X1-P1 X2-S1 X3-L1 X4-P2 X6-L2 X5-S2
+put to the cross to the right after having put the circle there as well # X1-P1 X3-L1 X5-S1 X4-P2 X2-S2 X3-L2
+put the triangle to the left after having put the triangle to the middle # X1-P1 X2-S1 X6-L1 X4-P2 X5-S2 X3-L2
+push the circle to the right then push the circle to the left # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+point to the circle # X1-P1 X2-S1
+grasp the cross # X1-P1 X2-S1
+touch the cross # X1-P1 X2-S1
+point to the triangle and grasp the circle # X1-P1 X2-S1 X3-P2 X4-S2
+grasp the cross point to the circle # X1-P1 X2-S1 X3-P2 X4-S2
+touch the cross point to the circle # X1-P1 X2-S1 X3-P2 X4-S2
+grasp the circle point to the circle # X1-P1 X2-S1 X4-S2 X3-P2
+touch the circle then point to the circle # X1-P1 X2-S1 X4-S2 X3-P2
+point to the triangle grasp the triangle # X1-P1 X2-S1 X4-S2 X3-P2
+point to the triangle touch the triangle # X1-P1 X2-S1 X4-S2 X3-P2
+grasp this triangle grasp the cross # X1-P1 X2-S1 X3-P2 X4-S2
+touch the triangle touch the cross # X1-P1 X2-S1 X3-P2 X4-S2
+point to the cross point to the circle # X1-P1 X2-S1 X3-P2 X4-S2
+point to the cross twice # X1-P1 X2-S1 X1-P2 X2-S2
+grasp the circle twice # X1-P1 X2-S1 X1-P2 X2-S2
+touch the circle twice # X1-P1 X2-S1 X1-P2 X2-S2
+point to the triangle and then put the circle in the middle # X1-P1 X2-S1 X3-P2 X4-S2 X5-L2
+put the cross left and grasp the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+put the cross left and touch the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+put the cross right and point to the cross # X1-P1 X2-S1 X3-L1 X5-S2 X4-P2
+grasp the triangle and then put it on the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+touch the triangle then put it on the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+put the triangle in the middle and then put the cross on the right # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the circle left and push the cross to the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+push the circle left put the cross middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+push the circle to the middle and then put it on the right # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2 X5-L2
+put the triangle on the left then push it to the middle # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2 X5-L2
+push the cross to the right and push the triangle to the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the triangle in the middle put the circle on the left # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the cross on the right then push the cross to the right # X1-P1 X2-S1 X3-L1 X5-S2 X6-L2 X4-P2
+push the triangle to the center and put the circle in the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the circle to the right and put the circle to the right # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the triangle in the middle then put the triangle on the left # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+push the circle to the right then push the circle to the left # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+there is a circle point to it # X1-S1 X2-P1
+grasp that cross over there # X1-P1 X2-S1
+touch on the cross # X1-P1 X2-S1
+put the cross over on the right # X1-P1 X2-S1 X3-L1
+push the triangle to the left # X1-P1 X2-S1 X3-L1
+point to the triangle and then after that grasp the circle # X1-P1 X2-S1 X3-P2 X4-S2
+first point the triangle then you can touch the circle # X1-P1 X2-S1 X3-P2 X4-S2
+after weve grasp the cross then point to the circle # X1-P1 X2-S1 X3-P2 X4-S2
+first touch the cross and then next point to the circle # X1-P1 X2-S1 X3-P2 X4-S2
+you should first grasp the circle and then point to it afterwards # X1-P1 X2-S1 X2-S2 X3-P2
+to do things first touch the circle and then point to the circle # X1-P1 X2-S1 X4-S2 X3-P2
+please point to the triangle and after youve done that grasp the triangle # X1-P1 X2-S1 X4-S2 X3-P2
+you can point to the triangle and next you can touch to the triangle # X1-P1 X2-S1 X4-S2 X3-P2
+frist of all grasp the triangle and finally grasp the cross # X1-P1 X2-S1 X3-P2 X4-S2
+before you touch the cross touch the triangle # X1-P1 X4-S1 X3-P2 X2-S2
+point to two things first the cross and then the circle # X1-P1 X2-S1 X1-P2 X3-S2
+do not point to the circle but point to the cross twice # X1-P1 X3-S1 X2-P2 X3-S2
+grasp the circle and then when youve finished grasp the circle again # X1-P1 X2-S1 X3-P2 X4-S2
+touch the circle once and then afterwards touch it again # X1-P1 X2-S1 X3-P2 X2-S2
+frist point to the triangle and next please put the circle in the middle # X1-P1 X2-S1 X3-P2 X4-S2 X5-L2
+put the cross over to the left and then once youve done that grasp the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+put the cross on the left and this time touch the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+once you have put the cross on the right point to it # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2
+the first thing to do with the triangle is to grasp it and then to put it on the left # X1-S1 X2-P1 X1-S2 X3-P2 X4-L2
+first of all touch the triangle and then put it over on the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+after youve put the triangle in the middle you can put the cross on the right # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+once you have put the circle on the left you can push the cross to the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+first push the circle to the left and afterwards put the cross in the middle of the table # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+push the circle into the middle and then put it back on the right # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2 X5-L2
+push the triangle to the middle once you have put it on the left # X2-S1 X4-P1 X5-L1 X1-P2 X2-S2 X3-L2
+first push the cross over to the right and then push the triangle into the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+after youve put the triangle in the middle put the circle on the left # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+first of all put the cross on the right and then push the cross around onto the right again # X1-P1 X2-S1 X3-L1 X5-S2 X6-L2 X4-P2
+move two objects to the same place by pushing the triangle to the center and then putting the circle in the center # X1-P1 X2-S1 X3-L1 X6-L2 X4-P2 X5-S2
+you need to push two objects to the left first the triangle then the cross # X1-P1 X2-L1 X3-S1 X1-P2 X2-L2 X4-S2
+put both the cross and the circle to the right start with the circle # X1-P1 X3-S1 X4-L1 X1-P2 X2-S2 X4-L2
+youre going to put the triangle on the left but first you have to put the triangle in the middle # X1-P1 X2-S1 X6-L1 X4-P2 X5-S2 X3-L2
+push the circle in two directions first push it to the right and afterwards push it to the left # X1-P1 X2-S1 X4-L1 X3-P2 X2-S2 X6-L2
+point the circle on my left # X1-P1 X2-S1
+please grasp the red cross # X1-P1 X2-S1
+hit the cross # X1-P1 X2-S1
+point the triangle and grasp the circle # X1-P1 X2-S1 X3-P2 X4-S2
+point the triangle and hit the circle # X1-P1 X2-S1 X3-P2 X4-S2
+grasp the cross and point the circle # X1-P1 X2-S1 X3-P2 X4-S2
+hit the cross and point the circle # X1-P1 X2-S1 X3-P2 X4-S2
+grasp and point the circle # X1-P1 X3-S1 X2-P2 X3-S2
+hit the circle and point the circle # X1-P1 X2-S1 X4-S2 X3-P2
+point the triangle and grasp it # X1-P1 X2-S1 X2-S2 X3-P2
+point the triangle and hit it # X1-P1 X2-S1 X2-S2 X3-P2
+grasp the triangle and grasp the cross # X1-P1 X2-S1 X3-P2 X4-S2
+hit the triangle and then the cross # X1-P1 X2-S1 X1-P2 X3-S2
+point the red cross and point the circle # X1-P1 X2-S1 X3-P2 X4-S2
+point twice the cross # X1-P1 X2-S1 X1-P2 X2-S2
+grasp twice the circle # X1-P1 X2-S1 X1-P2 X2-S2
+hit twice the blue circle # X1-P1 X2-S1 X1-P2 X2-S2
+point at the triangle and then put the circle to the middle # X1-P1 X2-S1 X3-P2 X4-S2 X5-L2
+push the cross on my left and then grasp the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+put the red cross to the left and hit the blue circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+put the red cross to the right and point at it # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2
+grasp the triangle and then put it to the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+hit the triangle and put it to the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+put the triangle to the middle and then the cross to the right # X1-P1 X2-S1 X3-L1 X1-P2 X4-S2 X5-L2
+push the blue circle to the left and put the red cross to the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the triangle to the left and then push it to the middle # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2 X5-L2
+push the red cross to the right and then push the triangle to the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the triangle to the middle and the circle to the left # X1-P1 X2-S1 X3-L1 X1-P2 X4-S2 X5-L2
+push the triangle to the left and push the cross to the left # X1-P1 X2-S1 X3-L1 X4-P2 X6-L2 X5-S2
+push the circle to the right and the to the left # X1-P1 X2-S1 X3-L1 X1-P2 X2-S2 X4-L2
+point the circle on my left # X1-P1 X2-S1
+please grasp the red cross # X1-P1 X2-S1
+hit the red cross on my right # X1-P1 X2-S1
+put the red cross on the empty space on my right # X1-P1 X2-S1 X3-L1
+on my left push the triangle # X1-L1 X2-P1 X3-S1
+first point the triangle and then grasp the circle # X1-P1 X2-S1 X3-P2 X4-S2
+before you hit the circle point the triangle please # X3-P1 X4-S1 X1-P2 X2-S2
+grasp the red cross and then point the circle # X1-P1 X2-S1 X3-P2 X4-S2
+before you point the circle please hit the cross # X3-P1 X4-S1 X1-P2 X2-S2
+before you point the circle grasp it # X2-S1 X3-P1 X1-P2 X2-S2
+before grasping the triangle on my left point at it # X2-S1 X3-P1 X1-P2 X2-S2
+before hitting the triangle point at it # X2-S1 X3-P1 X1-P2 X2-S2
+before you grasp the cross please grasp the triangle # X1-P1 X4-S1 X3-P2 X2-S2
+before hitting the red cross please hit the triangle # X3-P1 X4-S1 X1-P2 X2-S2
+point the red cross on my right and then point the circle # X1-P1 X2-S1 X3-P2 X4-S2
+point the cross and point it again # X1-P1 X2-S1 X3-P2 X2-S2
+grasp twice the circle in the middle # X1-P1 X2-S1 X1-P2 X2-S2
+hit the blue circle a first time and then a second time # X1-P1 X2-S1 X1-P2 X2-S2
+before putting the circle to the middle please point at the triangle # X4-P1 X5-S1 X1-P2 X2-S2 X3-L2
+after pushing the red cross on my left please grasp the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+after putting the red cross to the left please hit the blue circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+before pointing the red cross please push it to the right # X2-S1 X3-P1 X4-L1 X1-P2 X2-S2
+after grasping the triangle put it to the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+before putting the triangle to the left please hit it # X2-S1 X4-P1 X1-P2 X2-S2 X3-L2
+before pushing the cross to the right please put the triangle in the middle # X4-P1 X5-S1 X6-L1 X1-P2 X2-S2 X3-L2
+after putting the blue circle to the left push the cross to the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+before putting the red cross to the middle please push the blue circle to the left # X4-P1 X5-S1 X6-L1 X1-P2 X2-S2 X3-L2
+before pushing the triangle to the middle please put it to the left # X2-S1 X4-P1 X5-L1 X1-P2 X2-S2 X3-L2
+before pushing the triangle to the middle please push the cross to the right # X4-P1 X5-S1 X6-L1 X1-P2 X2-S2 X3-L2
+before putting the circle to the left put the triangle to the middle # X4-P1 X5-S1 X6-L1 X1-P2 X2-S2 X3-L2
+before rotating the red cross on itself please put it to the right # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+after pushing the triangle to the middle please put the circle to the middle # X1-P1 X2-S1 X3-L1 X6-L2 X4-P2 X5-S2
+after putting the circle to the right put the cross to the right too # X1-P1 X2-S1 X3-L1 X6-L2 X4-P2 X5-S2
+put the triangle to the middle and to the right # X1-P1 X2-S1 X3-L1 X1-P2 X2-S2 X4-L2
+before pushing the circle to the left please push it to the right # X2-S1 X4-P1 X5-L1 X1-P2 X2-S2 X3-L2
+point to the circle # X1-P1 X2-S1
+grasp the cross # X1-P1 X2-S1
+touch the cross # X1-P1 X2-S1
+put the cross on the right # X1-P1 X2-S1 X3-L1
+push the triangle over to the left # X1-P1 X2-S1 X3-L1
+point to the triangle and grasp the circle # X1-P1 X2-S1 X3-P2 X4-S2
+point to the triangle and touch the circle # X1-P1 X2-S1 X3-P2 X4-S2
+grasp the cross and point to the circle # X1-P1 X2-S1 X3-P2 X4-S2
+touch the cross and point to the circle # X1-P1 X2-S1 X3-P2 X4-S2
+grasp the circle and then point to it # X1-P1 X2-S1 X2-S2 X3-P2
+touch the circle and then point to it # X1-P1 X2-S1 X2-S2 X3-P2
+point to the triangle and then grasp it # X1-P1 X2-S1 X2-S2 X3-P2
+point to the triangle and then touch it # X1-P1 X2-S1 X2-S2 X3-P2
+pick up the triangle and then pick up the cross # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+touch the triangle then touch the cross # X1-P1 X2-S1 X3-P2 X4-S2
+point to the cross then point to the circle # X1-P1 X2-S1 X3-P2 X4-S2
+point to the cross twice # X1-P1 X2-S1 X1-P2 X2-S2
+pick up the circle twice # X1-P1 X2-S1 X3-L1 X1-P2 X2-S2 X3-L2
+touch the circle twice # X1-P1 X2-S1 X1-P2 X2-S2
+point to the triangle and then move the circle to the middle # X1-P1 X2-S1 X3-P2 X4-S2 X5-L2
+move the cross to the left and then pick up the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+move the cross to the left then touch the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+move the cross to the right then point to it # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2
+pick up the triangle then move it left # X1-P1 X2-S1 X3-L1 X3-S2 X4-P2 X5-L2
+touch the triangle then move it to the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+move the triangle to the center and the cross to the right # X1-P1 X2-S1 X3-L1 X1-P2 X4-S2 X5-L2
+move the circle to the left then the cross to the middle # X1-P1 X2-S1 X3-L1 X1-P2 X4-S2 X5-L2
+push the circle to the middle and then put it to the left # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2 X5-L2
+put the triangle on the left and then push it in the middle # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2 X5-L2
+push the cross to the right and push the triangle to the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the cross in the middle and put the circle on the left # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the cross on the left and push it back to the left # X1-P1 X2-S1 X3-L1 X2-S2 X5-L2 X4-P2
+push the triangle in the middle and put the circle in the middle # X1-P1 X2-S1 X3-L1 X6-L2 X4-P2 X5-S2
+push the triangle to the left and push the cross to the left # X1-P1 X2-S1 X3-L1 X4-P2 X6-L2 X5-S2
+put the circle on the right and the cross on the right # X1-P1 X2-S1 X3-L1 X1-P2 X5-L2 X4-S2
+put the triangle in the middle then put it on the left # X1-P1 X2-S1 X3-L1 X4-P2 X2-S2 X5-L2
+push the circle to the right then push the circle to the left # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+the circle point to it # X1-S1 X2-P1
+the cross grasp it # X1-S1 X2-P1
+the cross touch it # X1-S1 X2-P1
+the cross put it on the right # X1-S1 X2-P1 X3-L1
+the triangle push it over to the left # X1-S1 X2-P1 X3-L1
+after pointing to the triangle grasp the circle # X1-P1 X2-S1 X3-P2 X4-S2
+touch the circle after youve pointed the triangle # X3-P1 X4-S1 X1-P2 X2-S2
+grasp the cross before pointing to the circle # X1-P1 X2-S1 X3-P2 X4-S2
+after touching the cross point to the circle # X1-P1 X2-S1 X3-P2 X4-S2
+point to the circle after having grasped it # X2-S1 X3-P1 X1-P2 X2-S2
+point to the circle after having touched it # X2-S1 X3-P1 X1-P2 X2-S2
+grasp the triangle after having pointed to it # X2-S1 X3-P1 X1-P2 X2-S2
+touch the triangle after having touched it # X2-S1 X3-P1 X1-P2 X2-S2
+after picking up the triangle pick up the cross # X1-P1 X2-S1 X3-L1 X5-S2 X4-P2 X6-L2
+before touching the triangle touch the cross # X3-P1 X4-S1 X1-P2 X2-S2
+after pointing to the cross point to the circle # X1-P1 X2-S1 X3-P2 X4-S2
+point to the cross then do it again # X1-P1 X2-S1 X1-P2 X2-S2
+pick up the circle twice in a row # X1-P1 X2-S1 X3-L1 X1-P2 X2-S2 X3-L2
+the circle touch it twice # X1-S1 X2-P1 X1-S2 X2-P2
+move the circle to the middle after having pointed to the triangle # X4-P1 X5-S1 X1-P2 X2-S2 X3-L2
+before you pick up the circle move the cross to the left # X4-P1 X5-S1 X6-L1 X1-P2 X2-S2 X3-L2
+after moving the cross to the left touch the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+point to the cross after having moved it to the right # X2-S1 X3-P1 X4-L1 X1-P2 X2-S2
+before moving the triangle left pick it up # X2-S1 X4-P1 X5-L1 X1-P2 X2-S2 X3-L2
+touch and move the triangle to the left # X1-P1 X3-S1 X2-P2 X3-S2 X4-L2
+before moving the cross to the right move the cross to the center # X2-S1 X4-P1 X6-L1 X1-P2 X5-S2 X3-L2
+before moving the circle to the middle move the cross to the left # X4-P1 X5-S1 X6-L1 X1-P2 X2-S2 X3-L2
+after pushing the circle to the left put the cross in the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+after pushing the circle to the middle put it back on the left # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2 X5-L2
+after putting the triangle then push it back to the middle # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+after pushing the triangle to the right push the cross to the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the cross on the middle and the circle on the left # X1-P1 X2-S1 X3-L1 X1-P2 X4-S2 X5-L2
+push the cross around the left after putting it first on the left # X2-S1 X3-L1 X4-P1 X1-P2 X2-S2 X5-L2
+push to the triangle to the middle followed by putting the circle to the middle # X1-P1 X2-S1 X3-L1 X6-L2 X4-P2 X5-S2
+push both the triangle and the cross to the left # X1-P1 X2-S1 X4-L1 X1-P2 X3-S2 X4-L2
+put both the circle and the cross on the right # X1-P1 X2-S1 X4-L1 X1-P2 X3-S2 X4-L2
+move the triangle to the middle and to the left # X1-P1 X2-S1 X3-L1 X1-P2 X2-S2 X4-L2
+push the circle to the left and then all the way to the right # X1-P1 X2-S1 X3-L1 X1-P2 X2-S2 X4-L2
+point circle # X1-P1 X2-S1
+grasp cross # X1-P1 X2-S1
+hit cross # X1-P1 X2-S1
+put the cross on the right # X1-P1 X2-S1 X3-L1
+push triangle on the left # X1-P1 X2-S1 X3-L1
+point triangle and grasp circle # X1-P1 X2-S1 X3-P2 X4-S2
+point triangle and hit circle # X1-P1 X2-S1 X3-P2 X4-S2
+grasp cross and point circle # X1-P1 X2-S1 X3-P2 X4-S2
+hit cross and point circle # X1-P1 X2-S1 X3-P2 X4-S2
+grasp circle and point it # X1-P1 X2-S1 X2-S2 X3-P2
+hit the circle and point it # X1-P1 X2-S1 X2-S2 X3-P2
+point triangle and grasp it # X1-P1 X2-S1 X2-S2 X3-P2
+point triangle and hit it # X1-P1 X2-S1 X2-S2 X3-P2
+grasp triangle and grasp cross # X1-P1 X2-S1 X3-P2 X4-S2
+hit triangle and hit cross # X1-P1 X2-S1 X3-P2 X4-S2
+point the cross and point the circle # X1-P1 X2-S1 X3-P2 X4-S2
+point cross two times # X1-P1 X2-S1 X1-P2 X2-S2
+grasp circle two times # X1-P1 X2-S1 X1-P2 X2-S2
+hit circle hit circle # X1-P1 X2-S1 X3-P2 X4-S2
+point triangle and put circle in the middle # X1-P1 X2-S1 X3-P2 X4-S2 X5-L2
+put the cross in left and grasp the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+put the cross on the left and hit the circle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2
+put the cross on right and point it # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2
+after grasp the triangle put it on the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+hit triangle and put it on the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+put the triangle in the middle and put it in the right # X1-P1 X2-S1 X3-L1 X4-P2 X2-S2 X5-L2
+put the circle in left and push the cross in the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+push the circle on the left and put the cross in the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+push the circle in the middle and put it in the right # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2 X5-L2
+put the triangle on left and push it in the middle # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2 X5-L2
+push the cross on right and push triangle in the middle # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the triangle in the middle and put the circle on left # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+put the cross on right and push it in right too # X1-P1 X2-S1 X3-L1 X2-S2 X5-L2 X4-P2
+push the triangle on the middle and put the circle in the middle # X1-P1 X2-S1 X3-L1 X6-L2 X4-P2 X5-S2
+push triangle and push cross in left # X1-P1 X2-S1 X5-L1 X3-P2 X4-S2 X5-L2
+put the cross in right and put the circle in right # X1-P1 X2-L1 X4-S1 X3-P2 X5-L2 X4-S2
+put the triangle in the middle and put it on left # X1-P1 X2-S1 X3-L1 X4-P2 X2-S2 X5-L2
+push circle on right and push circle on left # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+circle is pointed # X1-S1 X2-P1
+cross is pointed # X1-S1 X2-P1
+cross is hit # X1-S1 X2-P1
+on the right put the cross # X1-L1 X2-P1 X3-S1
+on the left push triangle # X1-L1 X2-P1 X3-S1
+before grasp circle point triangle # X3-P1 X4-S1 X1-P2 X2-S2
+before hit circle point triangle # X3-P1 X4-S1 X1-P2 X2-S2
+before grasp cross point circle # X3-P1 X4-S1 X1-P2 X2-S2
+before hit cross point circle # X3-P1 X4-S1 X1-P2 X2-S2
+before point it grasp circle # X2-P1 X3-S1 X1-P2 X3-S2
+before point the circle hit it # X2-S1 X3-P1 X1-P2 X2-S2
+before grasp triangle point it # X2-S1 X3-P1 X1-P2 X2-S2
+before point triangle hit it # X2-S1 X3-P1 X1-P2 X2-S2
+grasp triangle before the cross # X1-P1 X2-S1 X1-P2 X3-S2
+hit the triangle before hit the cross # X1-P1 X2-S1 X3-P2 X4-S2
+before point circle point cross # X1-P1 X4-S1 X3-P2 X2-S2
+two times point cross # X1-P1 X2-S1 X1-P2 X2-S2
+two times grasp circle # X1-P1 X2-S1 X1-P2 X2-S2
+before hit the circle hit the circle # X1-P1 X2-S1 X3-P2 X4-S2
+before put circle in the middle point the triangle # X4-P1 X5-S1 X1-P2 X2-S2 X3-L2
+grasp the circle but before put the cross on the left # X3-P1 X4-S1 X5-L1 X1-P2 X2-S2
+before hit the circle put the cross on the left # X3-P1 X4-S1 X5-L1 X1-P2 X2-S2
+put the cross on right before point it # X1-P1 X2-S1 X3-L1 X2-S2 X4-P2
+before put the triangle on left grasp it # X2-S1 X4-P1 X1-P2 X2-S2 X3-L2
+after hit triangle put it on the left # X1-P1 X2-S1 X2-S2 X3-P2 X4-L2
+before put the cross in right put the triangle in the middle # X1-P1 X5-S1 X6-L1 X4-P2 X2-S2 X3-L2
+on the left put the cross and push it in the middle # X1-L1 X2-P1 X3-S1 X3-S2 X4-P2 X5-L2
+before put the cross in the middle push the circle on the left # X4-P1 X5-S1 X6-L1 X1-P2 X2-S2 X3-L2
+before put in the right push the circle in the middle # X3-P1 X4-S1 X5-L1 X1-P2 X2-L2 X4-S2
+on left put the triangle and push it in the middle # X1-L1 X2-P1 X3-S1 X3-S2 X4-P2 X5-L2
+push the cross on right and triangle in the middle # X1-P1 X2-S1 X3-L1 X1-P2 X4-S2 X5-L2
+on the middle put the triangle and put the circle in left # X1-L1 X2-P1 X3-S1 X4-P2 X5-S2 X6-L2
+before push the cross on right put it here # X2-S1 X4-P1 X5-L1 X1-P2 X2-S2 X3-L2
+in first push the triangle in middle and put the circle in the right # X1-P1 X2-S1 X3-L1 X4-P2 X5-S2 X6-L2
+in left push the triangle and the cross # X1-L1 X2-P1 X3-S1 X1-L2 X2-P2 X4-S2
+put the circle and the cross in right # X1-P1 X2-S1 X4-L1 X1-P2 X3-S2 X4-L2
+before put the triangle on left put it in the middle # X1-P1 X2-S1 X5-L1 X4-P2 X2-S2 X3-L2
+push the circle on right before push it in left # X1-P1 X2-S1 X3-L1 X4-P2 X2-S2 X5-L2

@@ -28,8 +28,8 @@ except:
 class ThematicRoleModel(ThematicRoleError,PlotRoles):
 
     def __init__(self,corpus='373',subset=range(0,462),reservoir_size= 1000,input_dim=50,save_predictions=False,
-                 spectral_radius=1.9, input_scaling= 2.3, bias_scaling=0,leak_rate=0.1,plot_activations=False,
-                 ridge = 1e-6, _instance=0, n_folds = 0, seed=2, learning_mode='SFL', verbose=True):
+                 spectral_radius=2.4, input_scaling= 2.5, bias_scaling=0,leak_rate=0.07,plot_activations=False,
+                 ridge = 1e-3, _instance=0, n_folds = 0, seed=2, learning_mode='SCL', verbose=True):
 
                  self.COPRUS_W2V_MODEL_DICT='data/corpus_word_vectors/corpus-word-vectors-'+str(input_dim)+'dim.pkl'
 
@@ -188,9 +188,12 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
             returns:
                 A copy of flow trained of the training_sentences
         '''
-        f_copy=deepcopy(self.flow) # create a deep copy of initial flow for current train-test set
+
         if self.n_folds==0:
             f_copy=self.flow
+        else:
+            f_copy=deepcopy(self.flow) # create a deep copy of initial flow for current train-test set
+
         data=[training_sentences, zip(training_sentences,training_labels)]
         f_copy.train(data)
         return f_copy
@@ -391,7 +394,7 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
         '''
         if output_csv_name is None:
             ct=time.strftime("%d-%m_%H:%M")
-            out_csv='outputs/tra-'+str(self.corpus)+'-'+\
+            out_csv='outputs/'+self._instance+'instance-tra-'+str(self.corpus)+'-'+\
                      str(self.reservoir_size)+'res-'+\
                      str(self.n_folds)+'folds-'+\
                      str(self.ridge)+'ridge-'+\
@@ -403,9 +406,7 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
         #dictionary of parameter to do grid search on
         #Note the parameter key should match the name with variable of this class
         gridsearch_parameters = {
-                                'spectral_radius':mdp.numx.arange(1.5, 2.6, 0.1),
-                                'input_scaling':mdp.numx.arange(2.0, 3.1, 0.1),
-                                'leak_rate':mdp.numx.arange(0.01,0.11,0.02)
+                                'seed':range(self._instance)
                                 }
         parameter_ranges = []
         parameters_lst = []
@@ -469,7 +470,7 @@ if __name__=="__main__":
     corpus='373'
     sub_corpus_per=100
     subset=range(0,373)
-    n_folds=10
+    n_folds=-1
     iss= 2.5 #2.5 for SCL # 2.3 for SFL
     sr= 2.4 #2.4  for SCL # 2.2 for SFL
     lr= 0.07 #0.07 for SCL # 0.13 for SFL
@@ -477,42 +478,11 @@ if __name__=="__main__":
     #******************* Initialize a Model ***********************************
 
     model = ThematicRoleModel(corpus=corpus,input_dim=50,reservoir_size=500,input_scaling=iss,spectral_radius=sr,
-                            leak_rate=lr,ridge=1e-3,subset=subset,n_folds=n_folds,verbose=True,seed=1,
+                            leak_rate=lr,ridge=1e-3,subset=subset,n_folds=n_folds,verbose=True,seed=1,_instance=10,
                             plot_activations=False,save_predictions=False,learning_mode=learning_mode)
     model.initialize_esn()
 
-    #******************* Execute a Model with multiple Reservoir instances ***********************************
-
-    model_instances=1 # No. of instances of reservoir
-
-    if model_instances > 1:
-        # Name of file where to save the execution results
-        ct=time.strftime("%d-%m_%H:%M")
-        out_csv='outputs/'+str(model_instances)+'instances-tra-'+str(model.corpus)+'-'+\
-                     str(sub_corpus_per)+'subcorpus-'+\
-                     str(model.reservoir_size)+'res-'+\
-                     str(model.n_folds)+'folds-'+\
-                     str(model.ridge)+'ridge-'+\
-                     str(model.input_dim)+'w2vdim-'+learning_mode+''+\
-                     ct+'.csv'
-
-        train_indices,test_indices=model.apply_nfold()
-        with open(out_csv,'wb+') as csv_file:
-            w=csv.writer(csv_file, delimiter=';')
-            csv_header=['Instance','RMSE','std. RMSE','Meaning_Error','std. Meaning_Error', 'Sentence_Error','std. Sentence_Error']
-            w.writerow(csv_header)
-            for instance in range(model_instances):
-                print "***************** Instance: "+str(instance+1)+"***********************"
-                # re-initialize esn
-                model.initialize_esn()
-                #execute the model
-                rmse_error,std_rmse,me,std_me,se,std_se= model.execute(verbose=True,train_sent_indices=train_indices,test_sent_indices=test_indices)
-                row=[instance+1,rmse_error,std_rmse, me, std_me,se,std_se]
-                w.writerow(row)
-    else:
-        model.execute(verbose=True)
-
-    #model.grid_search()
-    #model.flow.save('outputs/flow-'+corpus+'.flow')
+    #model.execute(verbose=True)
+    model.grid_search()
     end_time = time.time()
     print '\nTotal execution time : %s min '%((end_time-start_time)/60)

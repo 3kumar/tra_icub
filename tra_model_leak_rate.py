@@ -10,6 +10,7 @@ import itertools
 import time
 import requests
 import base64
+from collections import defaultdict
 import numpy as np
 from Oger.nodes import LeakyReservoirNode
 from Oger.evaluation import n_fold_random,leave_one_out
@@ -247,6 +248,8 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
         all_mean_sentence_err = []
         all_mean_rmse = []
 
+        sent_error_index_lst=[]
+
         iteration = range(len(train_indices))
 
         #prepare a list of training and test sentences arrays based on train_indices and test_indices respectively
@@ -283,6 +286,9 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
                     #compute error method returns a tuple of errors
                     errors=self.compute_error(sent_activation,curr_test_labels[sent_no])
                     meaning_error, sentence_error=errors
+                    if sentence_error==1:
+                        sent_error_index_lst.append(test_sentences_subset[sent_no])
+
                     fold_meaning_error.append(meaning_error)
                     fold_sentence_error.append(sentence_error)
                     fold_rmse.append(rmse(sent_activation,curr_test_labels[sent_no]))
@@ -303,13 +309,14 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
 
         return mdp.numx.mean(all_mean_rmse),mdp.numx.std(all_mean_rmse),\
                 mdp.numx.mean(all_mean_meaning_err),mdp.numx.std(all_mean_meaning_err), \
-                mdp.numx.mean(all_mean_sentence_err),mdp.numx.std(all_mean_sentence_err)
+                mdp.numx.mean(all_mean_sentence_err),mdp.numx.std(all_mean_sentence_err),\
+                sent_error_index_lst
 
     def save_test_predictions(self,test_sent_indices,y_true_lbl,y_pred_lbl,fold):
 
         test_sent = [self.sentences[sent_index] for sent_index in test_sent_indices]
 
-        file_name='outputs/predictions/corpus-'+self.corpus+'.txt'
+        file_name='outputs/predictions/corpus-'+self.corpus+'-instance-'+str(self.seed+1)+'.txt'
         labels=np.array(self.unique_labels)
         with open(file_name,'a') as f:
             for sent_index, sent in enumerate(test_sent):
@@ -340,7 +347,7 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
         for idx in range(len(y_true)):
             sent_true_role, sent_pred_role=[],[]
             (NVassoc_contributing_anwser, NVassoc_not_contributing_answer_but_present, NVassoc_not_present_in_sentence) = \
-                self._get_NVassoc_sliced(input_signal=y_pred[idx],target_signal= y_true[idx], verbose=False)
+                self._get_XAassoc_sliced(input_signal=y_pred[idx],target_signal= y_true[idx], verbose=False)
 
             for nva_tuple in NVassoc_contributing_anwser + NVassoc_not_contributing_answer_but_present:
                 nva_index = nva_tuple[0]
@@ -388,13 +395,14 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
         return word_vector
 
     def grid_search(self,output_csv_name=None,progress=True,verbose=False):
+
         '''
             this execute method does a grid search over reservoir parameters and log the errors in a csv file w.r.t to
             gridsearch parameters
         '''
         if output_csv_name is None:
             ct=time.strftime("%d-%m_%H:%M")
-            out_csv='outputs/'+self._instance+'instance-tra-'+str(self.corpus)+'-'+\
+            out_csv='outputs/'+str(self._instance)+'instance-tra-'+str(self.corpus)+'-'+\
                      str(self.reservoir_size)+'res-'+\
                      str(self.n_folds)+'folds-'+\
                      str(self.ridge)+'ridge-'+\
@@ -433,11 +441,13 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
             csv_header+=[param for param in parameters_lst]
             w.writerow(csv_header)
 
+            instance_error_dict = defaultdict(list)
+
             for paramspace_index_flat, parameter_values in iteration:
                 # Set all parameters of all nodes to the correct values
                 for parameter_index, parameter in enumerate(parameters_lst):
                     # Add the current node to the set of nodes whose parameters are changed, and which should be re-initialized
-                    self.__setattr__(parameter,parameter_values[parameter_index])
+                    self.__setattr__(parameter, parameter_values[parameter_index])
 
                 # Re-initialize esn
                 self.initialize_esn()
@@ -445,6 +455,7 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
                 # Do the validation and get the errors for each paramater combination
                 errors = self.execute()
 
+                instance_error_dict[self.seed+1] = errors[6]
                 # Store the current errors in the respective errors arrays for a param combination
                 mean_rmse=errors[0]
                 std_rmse=errors[1]
@@ -456,6 +467,10 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
                 row=[paramspace_index_flat+1,mean_rmse,std_rmse, mean_meaning_error, std_meaning_error,mean_sentence_error,std_sentence_error]
                 row+=list(param_space[paramspace_index_flat])
                 w.writerow(row)
+
+            with open('outputs/sentence_error_index.pkl', 'w') as fhandle:
+                pickle.dump(instance_error_dict, fhandle)
+                print 'Dumped successfully.'
 
 if __name__=="__main__":
     '''
@@ -477,9 +492,9 @@ if __name__=="__main__":
 
     #******************* Initialize a Model ***********************************
 
-    model = ThematicRoleModel(corpus=corpus,input_dim=50,reservoir_size=500,input_scaling=iss,spectral_radius=sr,
-                            leak_rate=lr,ridge=1e-3,subset=subset,n_folds=n_folds,verbose=True,seed=1,_instance=10,
-                            plot_activations=False,save_predictions=False,learning_mode=learning_mode)
+    model = ThematicRoleModel(corpus=corpus,input_dim=50,reservoir_size=1000,input_scaling=iss,spectral_radius=sr,
+                            leak_rate=lr,ridge=1e-3,subset=subset,n_folds=n_folds,verbose=True,seed=1,_instance=5,
+                            plot_activations=False,save_predictions=True,learning_mode=learning_mode)
     model.initialize_esn()
 
     #model.execute(verbose=True)

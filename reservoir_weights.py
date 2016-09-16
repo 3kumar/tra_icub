@@ -29,8 +29,8 @@ def generate_sparse_w(output_size, specrad, fan_in_res=10, seed=1):
             w *= (specrad / mdp.numx.amax(mdp.numx.absolute(we)))
         except:
             pass
-    return w.toarray()
-    #return w
+    #return w.toarray()
+    return w
 
 def generate_sparse_w_in(output_size, input_size, scaling, fan_in_i=2,seed=1):
     import scipy.sparse
@@ -44,5 +44,5 @@ def generate_sparse_w_in(output_size, input_size, scaling, fan_in_i=2,seed=1):
     ij[1,:] = mdp.numx.random.randint(0,input_size,(1,nrentries))
     datavec =  mdp.numx.random.randn(nrentries)
     w = scaling * scipy.sparse.csc_matrix((datavec, ij),dtype=np.float32, shape=(output_size, input_size))
-    return w.toarray()
-    #return w
+    #return w.toarray()
+    return w

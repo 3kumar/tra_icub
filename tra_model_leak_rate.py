@@ -492,8 +492,8 @@ if __name__=="__main__":
 
     #******************* Initialize a Model ***********************************
 
-    model = ThematicRoleModel(corpus=corpus,input_dim=50,reservoir_size=1000,input_scaling=iss,spectral_radius=sr,
-                            leak_rate=lr,ridge=1e-3,subset=subset,n_folds=n_folds,verbose=True,seed=1,_instance=5,
+    model = ThematicRoleModel(corpus=corpus,input_dim=50,reservoir_size=500,input_scaling=iss,spectral_radius=sr,
+                            leak_rate=lr,ridge=1e-3,subset=subset,n_folds=n_folds,verbose=True,seed=1,_instance=10,
                             plot_activations=False,save_predictions=True,learning_mode=learning_mode)
     model.initialize_esn()
 

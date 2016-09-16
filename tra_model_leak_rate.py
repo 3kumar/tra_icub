@@ -14,9 +14,8 @@ from collections import defaultdict
 import numpy as np
 from Oger.nodes import LeakyReservoirNode
 from Oger.evaluation import n_fold_random,leave_one_out
-from Oger.utils import rmse,make_inspectable
+from Oger.utils import rmse
 from copy import deepcopy
-from random import shuffle
 from tra_error import ThematicRoleError,keep_max_for_each_time_step_with_default
 from reservoir_weights import generate_sparse_w, generate_sparse_w_in
 from Oger.nodes import RidgeRegressionNode
@@ -28,8 +27,8 @@ except:
 
 class ThematicRoleModel(ThematicRoleError,PlotRoles):
 
-    def __init__(self,corpus='373',subset=range(0,462),reservoir_size= 1000,input_dim=50,save_predictions=False,
-                 spectral_radius=2.4, input_scaling= 2.5, bias_scaling=0,leak_rate=0.07,plot_activations=False,
+    def __init__(self,corpus='373',subset=range(0,373),reservoir_size= 1000, input_dim=50, save_predictions=False,
+                 spectral_radius=2.4, input_scaling= 2.5, bias_scaling=0, leak_rate=0.07, plot_activations=False,
                  ridge = 1e-3, _instance=0, n_folds = 0, seed=2, learning_mode='SCL', verbose=True):
 
                  self.COPRUS_W2V_MODEL_DICT='data/corpus_word_vectors/corpus-word-vectors-'+str(input_dim)+'dim.pkl'
@@ -57,18 +56,14 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
 
                  self.n_folds=n_folds
 
-                 subjects=6
+                 sw=6
                  actions=2
                  roles=['P','S','L']
 
-                 self.unique_labels=['X'+str(s+1)+'-'+r+str(a+1) for s in range(subjects) for a in range(actions) for r in roles ]
+                 self.unique_labels=['X'+str(s+1)+'-'+r+str(a+1) for s in range(sw) for a in range(actions) for r in roles ]
 
                  #load raw sentneces and labels from the files and compute several other meta info.
                  self.sentences,self.labels=self.__load_corpus(corpus_size=corpus,subset=subset)
-
-                 #Shuffle sentence words and not labels: same as exp.6 of xavier's paper
-                 #for sent in self.sentences:
-                 #    shuffle(sent)
 
                  self.labels_to_index=dict([(label,index) for index, label in enumerate(self.unique_labels)])
                  self.sentences_len=[len(sent) for sent in self.sentences]
@@ -122,7 +117,7 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
             returns:
                 a matrix of dimension (sentence length * len(self.unique_labels))
         """
-        teaching_start= self.sentences_len[sent_index]-2 if start=='<end>' else 1
+        teaching_start = self.sentences_len[sent_index]-2 if start=='<end>' else 1
 
         # activate only the labels which are present in the sentence
         binary_label_array=mdp.numx.zeros((self.sentences_len[sent_index], len(self.unique_labels)))
@@ -154,7 +149,6 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
             Generate the sequences for each sentences and labels to be used as input and output in ESN
 
         '''
-
         # Check if the w2v converted data format of raw sentence is available in the pkl file if yes then read from pickle file
         # else load word2vec model and generate a pickle file for further loading
 
@@ -176,7 +170,7 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
 
         ## Instansiate reservoir node, read-out and flow
         self.reservoir = LeakyReservoirNode(nonlin_func=mdp.numx.tanh,input_dim=self.input_dim,output_dim=self.reservoir_size,
-                                            leak_rate=self.leak_rate,w=w_r,w_in=w_in,w_bias=w_bias,_instance=self._instance)
+                                            leak_rate=self.leak_rate,w=w_r,w_in=w_in,w_bias=w_bias)
 
         self.read_out = RidgeRegressionNode(ridge_param=self.ridge, use_pinv=True, with_bias=True)
         self.flow = mdp.Flow([self.reservoir, self.read_out],verbose=self.verbose)
@@ -248,6 +242,7 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
         all_mean_sentence_err = []
         all_mean_rmse = []
 
+        # a list to store index of sentences which are predicted wrongly in each fold
         sent_error_index_lst=[]
 
         iteration = range(len(train_indices))
@@ -394,7 +389,7 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
             word_vector=self.w2v_model[word]
         return word_vector
 
-    def grid_search(self,output_csv_name=None,progress=True,verbose=False):
+    def grid_search(self,search_parameters,output_csv_name=None,progress=True,verbose=False):
 
         '''
             this execute method does a grid search over reservoir parameters and log the errors in a csv file w.r.t to
@@ -412,10 +407,8 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
             out_csv=output_csv_name
 
         #dictionary of parameter to do grid search on
-        #Note the parameter key should match the name with variable of this class
-        gridsearch_parameters = {
-                                'seed':range(self._instance)
-                                }
+        #Note: the parameter key should match the name with variable of this class
+        gridsearch_parameters = search_parameters
         parameter_ranges = []
         parameters_lst = []
 
@@ -440,7 +433,7 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
             csv_header=['S.No','RMSE','std. RMSE','Meaning_Error','std. Meaning Error', 'Sentence_Error','std. Sentence Error']
             csv_header+=[param for param in parameters_lst]
             w.writerow(csv_header)
-
+            # dictionary to store which sentences are predicted wrongly by the model instances
             instance_error_dict = defaultdict(list)
 
             for paramspace_index_flat, parameter_values in iteration:
@@ -463,12 +456,13 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
                 std_meaning_error =  errors[3]
                 mean_sentence_error =  errors[4]
                 std_sentence_error =  errors[5]
+                instance_error_dict[self.seed] = errors[6]
 
-                row=[paramspace_index_flat+1,mean_rmse,std_rmse, mean_meaning_error, std_meaning_error,mean_sentence_error,std_sentence_error]
+                row=[paramspace_index_flat+1,mean_rmse,std_rmse, mean_meaning_error, std_meaning_error, mean_sentence_error, std_sentence_error]
                 row+=list(param_space[paramspace_index_flat])
                 w.writerow(row)
 
-            with open('outputs/sentence_error_index.pkl', 'w') as fhandle:
+            with open('outputs/'+str(self.input_dim)+'dim_sentence_error_index.pkl', 'w') as fhandle:
                 pickle.dump(instance_error_dict, fhandle)
                 print 'Dumped successfully.'
 
@@ -492,12 +486,16 @@ if __name__=="__main__":
 
     #******************* Initialize a Model ***********************************
 
-    model = ThematicRoleModel(corpus=corpus,input_dim=50,reservoir_size=500,input_scaling=iss,spectral_radius=sr,
+    model = ThematicRoleModel(corpus=corpus,input_dim=50,reservoir_size=1000,input_scaling=iss,spectral_radius=sr,
                             leak_rate=lr,ridge=1e-3,subset=subset,n_folds=n_folds,verbose=True,seed=1,_instance=10,
                             plot_activations=False,save_predictions=True,learning_mode=learning_mode)
-    model.initialize_esn()
-
+    #model.initialize_esn()
     #model.execute(verbose=True)
-    model.grid_search()
+
+    reservoir_gridsearch_parameters = {
+	'seed':mdp.numx.arange(10)
+    }
+
+    model.grid_search(search_parameters=reservoir_gridsearch_parameters)
     end_time = time.time()
     print '\nTotal execution time : %s min '%((end_time-start_time)/60)

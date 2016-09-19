@@ -71,7 +71,7 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
                  self.sentences_offsets=[self.max_sent_len - sent_len for sent_len in self.sentences_len]
                  self.X_data,self.Y_data=self.__generate_training_data() # generate input data for ESN
 
-    def __load_corpus(self,corpus_size='373',subset=range(0,462)):
+    def __load_corpus(self,corpus_size='373',subset=range(0,373)):
         file_name='data/corpus_'+str(corpus_size)+'_parsed.txt'
         sentences=[None]*len(subset)
         labels=[None]*len(subset)
@@ -246,9 +246,8 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
         sent_error_index_lst=[]
 
         iteration = range(len(train_indices))
-
-        #prepare a list of training and test sentences arrays based on train_indices and test_indices respectively
         for fold in iteration:
+
             #generating training sentences and labels data for each fold
             curr_train_sentences=[self.X_data[index] for index in train_indices[fold]]
             curr_train_labels=[self.Y_data[index] for index in train_indices[fold]]
@@ -268,14 +267,16 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
 
             #Testing:- collect activations of all test sentences in current fold in a list
             test_sentences_activations=self.testModel(f_copy,curr_test_sentences,fold=fold)
+
+            #Save predictions to a text file for each test sentence
             if self.save_predictions:
                 y_true_lbl,y_pred_lbl=self.decode_read_out_activations(y_pred=test_sentences_activations,y_true=curr_test_labels)
                 self.save_test_predictions(test_sentences_subset,y_true_lbl,y_pred_lbl,fold)
 
             if self.n_folds==0:
                 # saved activations will be used to draw graphs
-                #self.save_test_activations(test_sentences_activations)
-                pass
+                self.save_test_activations(test_sentences_activations)
+                #pass
 
             for sent_no,sent_activation in enumerate(test_sentences_activations):
                     #compute error method returns a tuple of errors
@@ -311,21 +312,33 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
 
         test_sent = [self.sentences[sent_index] for sent_index in test_sent_indices]
 
-        file_name='outputs/predictions/corpus-'+self.corpus+'-instance-'+str(self.seed+1)+'.txt'
-        labels=np.array(self.unique_labels)
-        with open(file_name,'a') as f:
-            for sent_index, sent in enumerate(test_sent):
-                f.write(35*'#'+' '+str(fold+1)+'-fold '+ 35*'#' +'\n')
-                role_mask=self.Y_data[test_sent_indices[sent_index]]>0
-                role_mask=role_mask[1,:]
-                yt=labels[role_mask].tolist()
-                yp=y_pred_lbl[sent_index]
-                match= (yt==yp)
-                f.write('Sentence-'+str(self.subset[sent_index])+':'+' '.join(sent) + '\n')
-                f.write('True Roles :: '+' '.join(yt) +'\n')
-                f.write('Pred Roles :: '+' '.join(yp) +'\n')
-                f.write('CORRECT :: '+ str(match) +'\n')
-                f.write('\n')
+        file_name='outputs/predictions/'+str(self.input_dim)+'dim-'+self.corpus+'corpus-'+str(self.seed+1)+'instance'
+        with open(file_name+'.txt','a') as ft:
+            with open(file_name+'.csv','a') as fc:
+                w=csv.writer(fc,delimiter=';')
+                csv_header=['S.No','percentage failure','True Roles','Predicted Roles',' Raw Sentence']
+                w.writerow(csv_header)
+
+                for sent_index, sent in enumerate(test_sent):
+                    yt=set(y_true_lbl[sent_index])
+                    yp=set(y_pred_lbl[sent_index])
+                    correct_pred = set.intersection(yt,yp)
+                    correct_pred_per= float(len(correct_pred))/len(yt)*100
+                    error_per=100-correct_pred_per
+
+                    # write to csv file
+                    row=[test_sent_indices[sent_index],error_per,' || '.join(yt), ' || '.join(yp), ' '.join(sent[1:-1])]
+                    w.writerow(row)
+
+                    # write to text file
+                    ft.write(35*'#'+' '+str(fold+1)+'-fold '+ 35*'#' +'\n')
+                    match= (yt==yp)
+                    ft.write('Sentence-'+str(test_sent_indices[sent_index])+':'+' '.join(sent[1:-1]) + '\n')
+                    ft.write('True Roles :: '+' '.join(yt) +'\n')
+                    ft.write('Pred Roles :: '+' '.join(yp) +'\n')
+                    ft.write('All Correct :: '+ str(match) +'\n')
+                    ft.write('Error % :: '+ str(error_per) +'\n')
+                    ft.write('\n')
 
     def decode_read_out_activations(self,y_true, y_pred, threshold=0):
         """
@@ -336,9 +349,8 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
                 y_pred_lbl: a list of list containing true roles for each senteces
 
         """
-
-        labels=np.array(self.unique_labels)
         y_true_lbl, y_pred_lbl=[],[]
+        labels=np.array(self.unique_labels)
         for idx in range(len(y_true)):
             sent_true_role, sent_pred_role=[],[]
             (NVassoc_contributing_anwser, NVassoc_not_contributing_answer_but_present, NVassoc_not_present_in_sentence) = \
@@ -389,8 +401,8 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
             word_vector=self.w2v_model[word]
         return word_vector
 
-    def grid_search(self,search_parameters,output_csv_name=None,progress=True,verbose=False):
 
+    def grid_search(self,search_parameters,output_csv_name=None,progress=True,verbose=False):
         '''
             this execute method does a grid search over reservoir parameters and log the errors in a csv file w.r.t to
             gridsearch parameters
@@ -407,7 +419,6 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
             out_csv=output_csv_name
 
         #dictionary of parameter to do grid search on
-        #Note: the parameter key should match the name with variable of this class
         gridsearch_parameters = search_parameters
         parameter_ranges = []
         parameters_lst = []
@@ -479,7 +490,7 @@ if __name__=="__main__":
     corpus='373'
     sub_corpus_per=100
     subset=range(0,373)
-    n_folds=-1
+    n_folds=0
     iss= 2.5 #2.5 for SCL # 2.3 for SFL
     sr= 2.4 #2.4  for SCL # 2.2 for SFL
     lr= 0.07 #0.07 for SCL # 0.13 for SFL
@@ -489,13 +500,14 @@ if __name__=="__main__":
     model = ThematicRoleModel(corpus=corpus,input_dim=50,reservoir_size=1000,input_scaling=iss,spectral_radius=sr,
                             leak_rate=lr,ridge=1e-3,subset=subset,n_folds=n_folds,verbose=True,seed=1,_instance=10,
                             plot_activations=False,save_predictions=True,learning_mode=learning_mode)
-    #model.initialize_esn()
-    #model.execute(verbose=True)
+    model.initialize_esn()
+    model.execute(verbose=True)
 
-    reservoir_gridsearch_parameters = {
+    '''reservoir_gridsearch_parameters = {
 	'seed':mdp.numx.arange(10)
     }
 
-    model.grid_search(search_parameters=reservoir_gridsearch_parameters)
+    model.grid_search(search_parameters=reservoir_gridsearch_parameters)'''
+
     end_time = time.time()
     print '\nTotal execution time : %s min '%((end_time-start_time)/60)

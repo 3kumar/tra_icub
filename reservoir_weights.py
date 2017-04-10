@@ -9,8 +9,14 @@ import scipy
 import numpy as np
 from scipy.sparse.linalg import eigs
 
-# Use sparse matrices for generating the weights,
-# Note: To compensate this change we modified Oger reservoir_nodes.py to all dot product of sparse matrics with dense matrics
+
+'''
+This script contains the code to genrate sparse input and reservoir weight matrices. Here we used the the sparse matrices
+for generating the weights.
+
+Note: To compensate this change we modified Oger reservoir_nodes.py to all dot product of sparse matrics with dense
+         matrics'''
+ 
 def generate_sparse_w(output_size, specrad, fan_in_res=10, seed=1):
     converged = False
     mdp.numx.random.seed(seed)
@@ -29,8 +35,8 @@ def generate_sparse_w(output_size, specrad, fan_in_res=10, seed=1):
             w *= (specrad / mdp.numx.amax(mdp.numx.absolute(we)))
         except:
             pass
-    #return w.toarray()
-    return w
+    return w.toarray()
+    #return w
 
 def generate_sparse_w_in(output_size, input_size, scaling, fan_in_i=2,seed=1):
     import scipy.sparse
@@ -44,5 +50,5 @@ def generate_sparse_w_in(output_size, input_size, scaling, fan_in_i=2,seed=1):
     ij[1,:] = mdp.numx.random.randint(0,input_size,(1,nrentries))
     datavec =  mdp.numx.random.randn(nrentries)
     w = scaling * scipy.sparse.csc_matrix((datavec, ij),dtype=np.float32, shape=(output_size, input_size))
-    #return w.toarray()
-    return w
+    return w.toarray()
+    #return w

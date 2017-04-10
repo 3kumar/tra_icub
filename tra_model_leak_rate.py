@@ -69,6 +69,7 @@ class ThematicRoleModel(ThematicRoleError,PlotRoles):
                  self.sentences_len=[len(sent) for sent in self.sentences]
                  self.max_sent_len=max(self.sentences_len) #calculate max sentence length
                  self.sentences_offsets=[self.max_sent_len - sent_len for sent_len in self.sentences_len]
+
                  self.X_data,self.Y_data=self.__generate_training_data() # generate input data for ESN
 
     def __load_corpus(self,corpus_size='373',subset=range(0,373)):
@@ -486,7 +487,7 @@ if __name__=="__main__":
     start_time = time.time()
     learning_mode='SCL' # 'SCL'
 
-    #************************** Corpus 462 ************************************
+    #************************** Corpus 373 ************************************
     corpus='373'
     sub_corpus_per=100
     subset=range(0,373)
@@ -498,13 +499,17 @@ if __name__=="__main__":
     #******************* Initialize a Model ***********************************
 
     model = ThematicRoleModel(corpus=corpus,input_dim=50,reservoir_size=1000,input_scaling=iss,spectral_radius=sr,
-                            leak_rate=lr,ridge=1e-3,subset=subset,n_folds=n_folds,verbose=True,seed=1,_instance=10,
-                            plot_activations=False,save_predictions=True,learning_mode=learning_mode)
+                            leak_rate=lr,ridge=1e-3,subset=subset,n_folds=n_folds,verbose=True,seed=4,_instance=10,
+                            plot_activations=False,save_predictions=False,learning_mode=learning_mode)
     model.initialize_esn()
     model.execute(verbose=True)
+    
+    '''
+        Add the parameters in the dictionary to perform the grid search. Use the param name as defined in the class.
+    '''
 
     '''reservoir_gridsearch_parameters = {
-	'seed':mdp.numx.arange(10)
+    'seed':mdp.numx.arange(10)
     }
 
     model.grid_search(search_parameters=reservoir_gridsearch_parameters)'''

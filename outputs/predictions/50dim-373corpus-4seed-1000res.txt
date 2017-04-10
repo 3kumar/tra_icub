@@ -1,0 +1,2611 @@
+################################### 1-fold ###################################
+Sentence-0:put the cross right
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 2-fold ###################################
+Sentence-1:push the triangle left
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 3-fold ###################################
+Sentence-2:point to the triangle touch the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 4-fold ###################################
+Sentence-3:push the triangle to the left then push the cross to the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 5-fold ###################################
+Sentence-4:put the cross on my right
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 6-fold ###################################
+Sentence-5:push the triangle on my left
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 7-fold ###################################
+Sentence-6:put the circle to the left and push the cross to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 8-fold ###################################
+Sentence-7:push the triangle to the middle and put the circle to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 9-fold ###################################
+Sentence-8:push the circle to the left and move the cross to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 10-fold ###################################
+Sentence-9:point the circle
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 11-fold ###################################
+Sentence-10:grasp the cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 12-fold ###################################
+Sentence-11:touch the cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 13-fold ###################################
+Sentence-12:put the cross to the right
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 14-fold ###################################
+Sentence-13:push the triangle to the left
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 15-fold ###################################
+Sentence-14:point the triangle before grasping the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 16-fold ###################################
+Sentence-15:point the triangle before touching the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 17-fold ###################################
+Sentence-16:grasp the cross before pointing the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 18-fold ###################################
+Sentence-17:touch the cross before pointing at the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 19-fold ###################################
+Sentence-18:grasp the cross before pointing at it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X1-P1 X3-P2 X2-S1
+All Correct :: False
+Error % :: 25.0
+
+################################### 20-fold ###################################
+Sentence-19:touch the circle then point at it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 21-fold ###################################
+Sentence-20:point to the triangle and then grasp it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 22-fold ###################################
+Sentence-21:touch the triangle after having pointed at it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 23-fold ###################################
+Sentence-22:grasp the triangle before grasping the cross
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 24-fold ###################################
+Sentence-23:touch the triangle before touching the cross
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 25-fold ###################################
+Sentence-24:point at the circle after having pointed at the cross
+True Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X4-P2
+All Correct :: False
+Error % :: 50.0
+
+################################### 26-fold ###################################
+Sentence-25:point twice at the cross
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 27-fold ###################################
+Sentence-26:grasp the circle twice
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 28-fold ###################################
+Sentence-27:touch the circle then touch it again
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 29-fold ###################################
+Sentence-28:touch the triangle before putting the circle in the middle
+True Roles :: X5-L2 X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X5-S1 X5-L2 X1-P1 X2-S2 X3-P2 X4-S2
+All Correct :: False
+Error % :: 20.0
+
+################################### 30-fold ###################################
+Sentence-29:put the cross to the left before grasping the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 31-fold ###################################
+Sentence-30:touch the circle after having put the cross to the left
+True Roles :: X3-P1 X1-P2 X5-L1 X4-S1 X2-S2
+Pred Roles :: X3-P1 X5-S2 X1-P1 X4-S1 X2-S1
+All Correct :: False
+Error % :: 60.0
+
+################################### 32-fold ###################################
+Sentence-31:put the cross to the right then point at it
+True Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 33-fold ###################################
+Sentence-32:grasp the triangle before having put it to the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X3-P1 X2-S2 X2-S1 X1-P2
+All Correct :: False
+Error % :: 60.0
+
+################################### 34-fold ###################################
+Sentence-33:touch the triangle then put it to the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 35-fold ###################################
+Sentence-34:put the triangle in the middle then put the cross to the right
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 36-fold ###################################
+Sentence-35:put the circle to the left before pushing the cross to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X6-L1 X1-P1 X2-S1 X3-L1 X3-L2
+All Correct :: False
+Error % :: 0.0
+
+################################### 37-fold ###################################
+Sentence-36:push the circle to the left then put the cross in the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 38-fold ###################################
+Sentence-37:push the cross to the middle then put it back to the right
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 39-fold ###################################
+Sentence-38:put the triangle to the left then push it to the middle
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 40-fold ###################################
+Sentence-39:first push the cross to the right then push the triangle to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 41-fold ###################################
+Sentence-40:firstly put the triangle in the middle then put the circle to the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X6-L2 X1-P1 X3-L1 X4-P2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 42-fold ###################################
+Sentence-41:put the cross to the right then push it around
+True Roles :: X4-P2 X1-P1 X2-S2 X2-S1 X3-L1 X3-L2
+Pred Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 43-fold ###################################
+Sentence-42:push the triangle in the middle then put circle in the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 44-fold ###################################
+Sentence-43:push the triangle and the cross to the left
+True Roles :: X4-L1 X4-L2 X3-S2 X1-P2 X1-P1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: False
+Error % :: 66.6666666667
+
+################################### 45-fold ###################################
+Sentence-44:put both the circle and the cross to the right
+True Roles :: X4-L1 X4-L2 X3-S2 X1-P2 X1-P1 X2-S1
+Pred Roles :: X4-L1 X4-L2 X3-S2 X1-P2 X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 46-fold ###################################
+Sentence-45:put the triangle in the middle then put the triangle to the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 47-fold ###################################
+Sentence-46:push the circle to the right before pushing it to the left
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 48-fold ###################################
+Sentence-47:point the circle with your index finger
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 49-fold ###################################
+Sentence-48:could you please grasp the cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 50-fold ###################################
+Sentence-49:touch the cross with your palm
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 51-fold ###################################
+Sentence-50:could you slowly put the cross to the right
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X3-S1 X1-P1 X2-S1
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 52-fold ###################################
+Sentence-51:using your fingers push the triangle to the left
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 53-fold ###################################
+Sentence-52:point the triangle before grasping the circle with the same hand
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P2 X3-P1 X2-S2 X2-S1 X3-P2 X4-S2
+All Correct :: False
+Error % :: 25.0
+
+################################### 54-fold ###################################
+Sentence-53:touch the circle after having pointed the triangle
+True Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 55-fold ###################################
+Sentence-54:grasp the cross then point at the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 56-fold ###################################
+Sentence-55:before pointing at the circle touch the cross
+True Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X4-S2
+All Correct :: False
+Error % :: 50.0
+
+################################### 57-fold ###################################
+Sentence-56:before pointing at the circle grasp it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 58-fold ###################################
+Sentence-57:before pointing at the circle touch at the circle
+True Roles :: X3-P1 X1-P2 X2-S1 X4-S2
+Pred Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+All Correct :: False
+Error % :: 50.0
+
+################################### 59-fold ###################################
+Sentence-58:before grasping the triangle point at it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 60-fold ###################################
+Sentence-59:point at the triangle then touch the triangle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 61-fold ###################################
+Sentence-60:grasp the triangle then the cross
+True Roles :: X1-P2 X1-P1 X2-S1 X3-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1
+All Correct :: False
+Error % :: 50.0
+
+################################### 62-fold ###################################
+Sentence-61:touch the cross after having touch the triangle
+True Roles :: X2-S2 X1-P1 X3-P2 X4-S1
+Pred Roles :: X3-P1 X2-S2 X4-S1
+All Correct :: False
+Error % :: 50.0
+
+################################### 63-fold ###################################
+Sentence-62:point at the cross then point at the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 64-fold ###################################
+Sentence-63:point at the cross two times in a row
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S2
+All Correct :: False
+Error % :: 25.0
+
+################################### 65-fold ###################################
+Sentence-64:grasp the circle two times
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 66-fold ###################################
+Sentence-65:touch the circle twice
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 67-fold ###################################
+Sentence-66:put the circle at the middle before putting the triangle in the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X1-P1 X5-S1 X4-P2 X3-L2
+All Correct :: False
+Error % :: 66.6666666667
+
+################################### 68-fold ###################################
+Sentence-67:put the cross to the left then grasp the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 69-fold ###################################
+Sentence-68:put the cross to the left before touching the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 70-fold ###################################
+Sentence-69:point at the cross after having put it to the right
+True Roles :: X3-P1 X1-P2 X2-S1 X4-L1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X3-P2 X4-L1 X2-S2
+All Correct :: False
+Error % :: 20.0
+
+################################### 71-fold ###################################
+Sentence-70:grasp the triangle then put it to the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 72-fold ###################################
+Sentence-71:put the triangle to the left after having touched it
+True Roles :: X1-P2 X2-S1 X3-L2 X4-P1 X2-S2
+Pred Roles :: X2-S1 X1-P1 X4-P2 X3-L2
+All Correct :: False
+Error % :: 60.0
+
+################################### 73-fold ###################################
+Sentence-72:before putting the cross to the right put the triangle in the middle
+True Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+Pred Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 74-fold ###################################
+Sentence-73:push the cross in the middle after putting the circle on the left
+True Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+Pred Roles :: X5-L2 X1-P2 X2-S1 X3-L1 X2-S2
+All Correct :: False
+Error % :: 66.6666666667
+
+################################### 75-fold ###################################
+Sentence-74:put the cross in the middle when you have pushed the circle to the left
+True Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+Pred Roles :: X4-L2 X5-S1 X4-P1 X1-P2 X2-S2 X2-S1
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 76-fold ###################################
+Sentence-75:put the circle back to the right after having pushed it to the middle
+True Roles :: X4-P1 X1-P2 X5-L1 X2-S2 X2-S1 X3-L2
+Pred Roles :: X5-L2 X1-P2 X2-S1 X3-L1 X2-S2
+All Correct :: False
+Error % :: 50.0
+
+################################### 77-fold ###################################
+Sentence-76:push the triangle in the middle after having put it to the left
+True Roles :: X4-P1 X1-P2 X5-L1 X2-S2 X2-S1 X3-L2
+Pred Roles :: X1-P2 X5-S1 X3-L2 X4-P1 X2-S2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 78-fold ###################################
+Sentence-77:push the triangle in the middle after having pushed the cross to the right
+True Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+Pred Roles :: X4-P1 X1-P2 X5-L1 X2-S2 X2-S1 X3-L2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 79-fold ###################################
+Sentence-78:put the circle to the left after having first put the triangle in the middle
+True Roles :: X5-S1 X4-P2 X6-L1 X1-P1 X2-S2 X3-L2
+Pred Roles :: X5-S2 X4-P2 X6-L2 X6-L1 X1-P1 X2-S2 X2-S1 X3-L2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 80-fold ###################################
+Sentence-79:push the cross after having put it to the right
+True Roles :: X3-P1 X1-P2 X2-S1 X4-L1 X2-S2
+Pred Roles :: X2-S2 X2-S1 X3-L1 X1-P1
+All Correct :: False
+Error % :: 60.0
+
+################################### 81-fold ###################################
+Sentence-80:first push the triangle in the middle then put the circle in the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 82-fold ###################################
+Sentence-81:push the triangle to the left then push also the cross to the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 83-fold ###################################
+Sentence-82:put to the cross to the right after having put the circle there as well
+True Roles :: X5-S1 X4-P2 X1-P1 X2-S2 X3-L1 X3-L2
+Pred Roles :: X4-L1 X4-L2 X5-S1 X1-P1 X2-S2 X2-S1 X3-L2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 84-fold ###################################
+Sentence-83:put the triangle to the left after having put the triangle to the middle
+True Roles :: X5-S2 X4-P2 X6-L1 X1-P1 X2-S1 X3-L2
+Pred Roles :: X5-S2 X3-L1 X4-P2 X3-L2
+All Correct :: False
+Error % :: 50.0
+
+################################### 85-fold ###################################
+Sentence-84:push the circle to the right then push the circle to the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 86-fold ###################################
+Sentence-85:point to the circle
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 87-fold ###################################
+Sentence-86:grasp the cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 88-fold ###################################
+Sentence-87:touch the cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 89-fold ###################################
+Sentence-88:point to the triangle and grasp the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 90-fold ###################################
+Sentence-89:grasp the cross point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 91-fold ###################################
+Sentence-90:touch the cross point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 92-fold ###################################
+Sentence-91:grasp the circle point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 93-fold ###################################
+Sentence-92:touch the circle then point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 94-fold ###################################
+Sentence-93:point to the triangle grasp the triangle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 95-fold ###################################
+Sentence-94:point to the triangle touch the triangle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 96-fold ###################################
+Sentence-95:grasp this triangle grasp the cross
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 97-fold ###################################
+Sentence-96:touch the triangle touch the cross
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 98-fold ###################################
+Sentence-97:point to the cross point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 99-fold ###################################
+Sentence-98:point to the cross twice
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 100-fold ###################################
+Sentence-99:grasp the circle twice
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 101-fold ###################################
+Sentence-100:touch the circle twice
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 102-fold ###################################
+Sentence-101:point to the triangle and then put the circle in the middle
+True Roles :: X5-L2 X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X5-L2 X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 103-fold ###################################
+Sentence-102:put the cross left and grasp the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 104-fold ###################################
+Sentence-103:put the cross left and touch the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 105-fold ###################################
+Sentence-104:put the cross right and point to the cross
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X1-P1 X2-S1 X4-S2
+All Correct :: False
+Error % :: 60.0
+
+################################### 106-fold ###################################
+Sentence-105:grasp the triangle and then put it on the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 107-fold ###################################
+Sentence-106:touch the triangle then put it on the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 108-fold ###################################
+Sentence-107:put the triangle in the middle and then put the cross on the right
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 109-fold ###################################
+Sentence-108:put the circle left and push the cross to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 110-fold ###################################
+Sentence-109:push the circle left put the cross middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 111-fold ###################################
+Sentence-110:push the circle to the middle and then put it on the right
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 112-fold ###################################
+Sentence-111:put the triangle on the left then push it to the middle
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 113-fold ###################################
+Sentence-112:push the cross to the right and push the triangle to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 114-fold ###################################
+Sentence-113:put the triangle in the middle put the circle on the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 115-fold ###################################
+Sentence-114:put the cross on the right then push the cross to the right
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 116-fold ###################################
+Sentence-115:push the triangle to the center and put the circle in the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 117-fold ###################################
+Sentence-116:put the circle to the right and put the circle to the right
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X6-L2 X1-P2 X1-P1 X2-S1 X3-L1 X4-S2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 118-fold ###################################
+Sentence-117:put the triangle in the middle then put the triangle on the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 119-fold ###################################
+Sentence-118:push the circle to the right then push the circle to the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 120-fold ###################################
+Sentence-119:there is a circle point to it
+True Roles :: X2-P1 X1-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: False
+Error % :: 100.0
+
+################################### 121-fold ###################################
+Sentence-120:grasp that cross over there
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 122-fold ###################################
+Sentence-121:touch on the cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 123-fold ###################################
+Sentence-122:put the cross over on the right
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 124-fold ###################################
+Sentence-123:push the triangle to the left
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 125-fold ###################################
+Sentence-124:point to the triangle and then after that grasp the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X3-L2
+All Correct :: False
+Error % :: 100.0
+
+################################### 126-fold ###################################
+Sentence-125:first point the triangle then you can touch the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 127-fold ###################################
+Sentence-126:after weve grasp the cross then point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 128-fold ###################################
+Sentence-127:first touch the cross and then next point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: False
+Error % :: 0.0
+
+################################### 129-fold ###################################
+Sentence-128:you should first grasp the circle and then point to it afterwards
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X3-P1 X2-S2 X1-P1 X2-S1 X1-P2
+All Correct :: False
+Error % :: 25.0
+
+################################### 130-fold ###################################
+Sentence-129:to do things first touch the circle and then point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X4-P2 X2-P2 X1-P1 X2-S1 X3-P2 X3-L1
+All Correct :: False
+Error % :: 25.0
+
+################################### 131-fold ###################################
+Sentence-130:please point to the triangle and after youve done that grasp the triangle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X4-P1 X1-P2 X2-S2 X2-S1 X3-L2 X4-S2
+All Correct :: False
+Error % :: 50.0
+
+################################### 132-fold ###################################
+Sentence-131:you can point to the triangle and next you can touch to the triangle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-P2
+All Correct :: False
+Error % :: 25.0
+
+################################### 133-fold ###################################
+Sentence-132:frist of all grasp the triangle and finally grasp the cross
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+All Correct :: False
+Error % :: 25.0
+
+################################### 134-fold ###################################
+Sentence-133:before you touch the cross touch the triangle
+True Roles :: X2-S2 X1-P1 X3-P2 X4-S1
+Pred Roles :: X2-S2 X4-S1 X1-P2
+All Correct :: False
+Error % :: 50.0
+
+################################### 135-fold ###################################
+Sentence-134:point to two things first the cross and then the circle
+True Roles :: X1-P2 X1-P1 X2-S1 X3-S2
+Pred Roles :: X1-P2 X1-P1 X3-P2 X2-S1
+All Correct :: False
+Error % :: 25.0
+
+################################### 136-fold ###################################
+Sentence-135:do not point to the circle but point to the cross twice
+True Roles :: X3-S1 X1-P1 X2-P2 X3-S2
+Pred Roles :: X3-S2 X1-L1 X1-P2 X3-P1 X2-S2 X2-P1
+All Correct :: False
+Error % :: 75.0
+
+################################### 137-fold ###################################
+Sentence-136:grasp the circle and then when youve finished grasp the circle again
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X4-P2 X4-S1 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: False
+Error % :: 50.0
+
+################################### 138-fold ###################################
+Sentence-137:touch the circle once and then afterwards touch it again
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 139-fold ###################################
+Sentence-138:frist point to the triangle and next please put the circle in the middle
+True Roles :: X5-L2 X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X5-L2 X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 140-fold ###################################
+Sentence-139:put the cross over to the left and then once youve done that grasp the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X3-S1 X4-P1 X5-L1 X1-P1 X2-S1 X3-L2
+All Correct :: False
+Error % :: 40.0
+
+################################### 141-fold ###################################
+Sentence-140:put the cross on the left and this time touch the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X4-P2 X4-S1 X1-P2 X5-L1 X3-L1
+All Correct :: False
+Error % :: 40.0
+
+################################### 142-fold ###################################
+Sentence-141:once you have put the cross on the right point to it
+True Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: False
+Error % :: 20.0
+
+################################### 143-fold ###################################
+Sentence-142:the first thing to do with the triangle is to grasp it and then to put it on the left
+True Roles :: X3-P2 X4-L2 X2-P1 X1-S2 X1-S1
+Pred Roles :: X3-S1 X4-L2 X4-P1 X1-P2 X2-S2 X2-S1 X3-P2
+All Correct :: False
+Error % :: 60.0
+
+################################### 144-fold ###################################
+Sentence-143:first of all touch the triangle and then put it over on the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: False
+Error % :: 40.0
+
+################################### 145-fold ###################################
+Sentence-144:after youve put the triangle in the middle you can put the cross on the right
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: False
+Error % :: 0.0
+
+################################### 146-fold ###################################
+Sentence-145:once you have put the circle on the left you can push the cross to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-L2 X6-L2 X1-P2 X3-P1 X4-S1
+All Correct :: False
+Error % :: 66.6666666667
+
+################################### 147-fold ###################################
+Sentence-146:first push the circle to the left and afterwards put the cross in the middle of the table
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-P2 X3-L1
+All Correct :: False
+Error % :: 0.0
+
+################################### 148-fold ###################################
+Sentence-147:push the circle into the middle and then put it back on the right
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X4-P1 X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-P2 X3-L1
+All Correct :: False
+Error % :: 0.0
+
+################################### 149-fold ###################################
+Sentence-148:push the triangle to the middle once you have put it on the left
+True Roles :: X4-P1 X1-P2 X5-L1 X2-S2 X2-S1 X3-L2
+Pred Roles :: X4-P2 X5-L2 X1-P2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: False
+Error % :: 50.0
+
+################################### 150-fold ###################################
+Sentence-149:first push the cross over to the right and then push the triangle into the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 151-fold ###################################
+Sentence-150:after youve put the triangle in the middle put the circle on the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 152-fold ###################################
+Sentence-151:first of all put the cross on the right and then push the cross around onto the right again
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X3-S1 X4-P1 X1-P2 X5-L2 X5-L1 X2-S1 X4-S2 X3-L2
+All Correct :: False
+Error % :: 83.3333333333
+
+################################### 153-fold ###################################
+Sentence-152:move two objects to the same place by pushing the triangle to the center and then putting the circle in the center
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X3-S1 X4-P1 X4-P2 X6-L2 X6-L1 X1-P2 X5-L1 X2-S2 X3-L2
+All Correct :: False
+Error % :: 50.0
+
+################################### 154-fold ###################################
+Sentence-153:you need to push two objects to the left first the triangle then the cross
+True Roles :: X3-S1 X1-P2 X1-P1 X2-L2 X2-L1 X4-S2
+Pred Roles :: X3-P2 X4-S2 X1-L1 X2-P1
+All Correct :: False
+Error % :: 83.3333333333
+
+################################### 155-fold ###################################
+Sentence-154:put both the cross and the circle to the right start with the circle
+True Roles :: X4-L1 X4-L2 X3-S1 X1-P2 X1-P1 X2-S2
+Pred Roles :: X4-L1 X3-S2 X4-L2 X1-P2 X1-P1 X2-P1
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 156-fold ###################################
+Sentence-155:youre going to put the triangle on the left but first you have to put the triangle in the middle
+True Roles :: X5-S2 X4-P2 X6-L1 X1-P1 X2-S1 X3-L2
+Pred Roles :: X5-S2 X5-S1 X4-P1 X4-P2 X6-L2 X1-P2 X1-S1 X2-S2 X2-P1 X3-L1 X3-L2
+All Correct :: False
+Error % :: 50.0
+
+################################### 157-fold ###################################
+Sentence-156:push the circle in two directions first push it to the right and afterwards push it to the left
+True Roles :: X4-L1 X6-L2 X1-P1 X2-S2 X2-S1 X3-P2
+Pred Roles :: X4-L1 X3-S2 X4-P2 X6-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 158-fold ###################################
+Sentence-157:point the circle on my left
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 159-fold ###################################
+Sentence-158:please grasp the red cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 160-fold ###################################
+Sentence-159:hit the cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 161-fold ###################################
+Sentence-160:point the triangle and grasp the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 162-fold ###################################
+Sentence-161:point the triangle and hit the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 163-fold ###################################
+Sentence-162:grasp the cross and point the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 164-fold ###################################
+Sentence-163:hit the cross and point the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 165-fold ###################################
+Sentence-164:grasp and point the circle
+True Roles :: X3-S1 X1-P1 X2-P2 X3-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1
+All Correct :: False
+Error % :: 75.0
+
+################################### 166-fold ###################################
+Sentence-165:hit the circle and point the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 167-fold ###################################
+Sentence-166:point the triangle and grasp it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 168-fold ###################################
+Sentence-167:point the triangle and hit it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 169-fold ###################################
+Sentence-168:grasp the triangle and grasp the cross
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 170-fold ###################################
+Sentence-169:hit the triangle and then the cross
+True Roles :: X1-P2 X1-P1 X2-S1 X3-S2
+Pred Roles :: X1-P2 X1-P1 X3-P2 X2-S1
+All Correct :: False
+Error % :: 25.0
+
+################################### 171-fold ###################################
+Sentence-170:point the red cross and point the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 172-fold ###################################
+Sentence-171:point twice the cross
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 173-fold ###################################
+Sentence-172:grasp twice the circle
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 174-fold ###################################
+Sentence-173:hit twice the blue circle
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 175-fold ###################################
+Sentence-174:point at the triangle and then put the circle to the middle
+True Roles :: X5-L2 X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X5-S2 X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: False
+Error % :: 20.0
+
+################################### 176-fold ###################################
+Sentence-175:push the cross on my left and then grasp the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 177-fold ###################################
+Sentence-176:put the red cross to the left and hit the blue circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 178-fold ###################################
+Sentence-177:put the red cross to the right and point at it
+True Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 179-fold ###################################
+Sentence-178:grasp the triangle and then put it to the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 180-fold ###################################
+Sentence-179:hit the triangle and put it to the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 181-fold ###################################
+Sentence-180:put the triangle to the middle and then the cross to the right
+True Roles :: X1-P2 X5-L2 X1-P1 X2-S1 X3-L1 X4-S2
+Pred Roles :: X1-P2 X1-P1 X3-L1 X2-S1 X5-L2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 182-fold ###################################
+Sentence-181:push the blue circle to the left and put the red cross to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 183-fold ###################################
+Sentence-182:put the triangle to the left and then push it to the middle
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 184-fold ###################################
+Sentence-183:push the red cross to the right and then push the triangle to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X1-P1 X6-L2 X2-S1 X4-P2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 185-fold ###################################
+Sentence-184:put the triangle to the middle and the circle to the left
+True Roles :: X1-P2 X5-L2 X1-P1 X2-S1 X3-L1 X4-S2
+Pred Roles :: X1-P2 X5-L2 X1-P1 X2-S1 X3-L1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 186-fold ###################################
+Sentence-185:push the triangle to the left and push the cross to the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 187-fold ###################################
+Sentence-186:push the circle to the right and the to the left
+True Roles :: X4-L2 X1-P2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X1-P2 X1-P1 X3-L1 X2-S1
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 188-fold ###################################
+Sentence-187:point the circle on my left
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 189-fold ###################################
+Sentence-188:please grasp the red cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 190-fold ###################################
+Sentence-189:hit the red cross on my right
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 191-fold ###################################
+Sentence-190:put the red cross on the empty space on my right
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 192-fold ###################################
+Sentence-191:on my left push the triangle
+True Roles :: X3-S1 X1-L1 X2-P1
+Pred Roles :: X3-S1 X1-L1 X2-P1
+All Correct :: True
+Error % :: 0.0
+
+################################### 193-fold ###################################
+Sentence-192:first point the triangle and then grasp the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 194-fold ###################################
+Sentence-193:before you hit the circle point the triangle please
+True Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+Pred Roles :: X1-P1 X3-P1 X2-S2 X3-P2 X4-S1 X4-S2
+All Correct :: False
+Error % :: 25.0
+
+################################### 195-fold ###################################
+Sentence-194:grasp the red cross and then point the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 196-fold ###################################
+Sentence-195:before you point the circle please hit the cross
+True Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 197-fold ###################################
+Sentence-196:before you point the circle grasp it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X1-P2 X3-P2 X2-S2
+All Correct :: False
+Error % :: 50.0
+
+################################### 198-fold ###################################
+Sentence-197:before grasping the triangle on my left point at it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 199-fold ###################################
+Sentence-198:before hitting the triangle point at it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 200-fold ###################################
+Sentence-199:before you grasp the cross please grasp the triangle
+True Roles :: X2-S2 X1-P1 X3-P2 X4-S1
+Pred Roles :: X3-P1 X2-S2 X4-S1 X1-P2
+All Correct :: False
+Error % :: 50.0
+
+################################### 201-fold ###################################
+Sentence-200:before hitting the red cross please hit the triangle
+True Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S2
+All Correct :: False
+Error % :: 25.0
+
+################################### 202-fold ###################################
+Sentence-201:point the red cross on my right and then point the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-L1 X2-S1 X4-S2
+All Correct :: False
+Error % :: 25.0
+
+################################### 203-fold ###################################
+Sentence-202:point the cross and point it again
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 204-fold ###################################
+Sentence-203:grasp twice the circle in the middle
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 205-fold ###################################
+Sentence-204:hit the blue circle a first time and then a second time
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X2-S2 X2-S1 X1-L1
+All Correct :: False
+Error % :: 50.0
+
+################################### 206-fold ###################################
+Sentence-205:before putting the circle to the middle please point at the triangle
+True Roles :: X1-P2 X5-S1 X3-L2 X4-P1 X2-S2
+Pred Roles :: X1-P2 X5-S1 X3-L2 X4-P1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 207-fold ###################################
+Sentence-206:after pushing the red cross on my left please grasp the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 208-fold ###################################
+Sentence-207:after putting the red cross to the left please hit the blue circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 209-fold ###################################
+Sentence-208:before pointing the red cross please push it to the right
+True Roles :: X3-P1 X1-P2 X2-S1 X4-L1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X4-P1 X2-S2
+All Correct :: False
+Error % :: 20.0
+
+################################### 210-fold ###################################
+Sentence-209:after grasping the triangle put it to the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X2-S2 X1-P1 X2-S1 X4-L2
+All Correct :: False
+Error % :: 20.0
+
+################################### 211-fold ###################################
+Sentence-210:before putting the triangle to the left please hit it
+True Roles :: X1-P2 X2-S1 X3-L2 X4-P1 X2-S2
+Pred Roles :: X1-P2 X2-S1 X3-L2 X4-P1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 212-fold ###################################
+Sentence-211:before pushing the cross to the right please put the triangle in the middle
+True Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+Pred Roles :: X5-S2 X4-P2 X6-L1 X1-P2 X2-S2 X3-L2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 213-fold ###################################
+Sentence-212:after putting the blue circle to the left push the cross to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X6-L2 X1-P1 X3-L1 X4-P2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 214-fold ###################################
+Sentence-213:before putting the red cross to the middle please push the blue circle to the left
+True Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+Pred Roles :: X5-S2 X5-S1 X4-P1 X4-P2 X6-L1 X1-P2 X3-P1 X2-S2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 215-fold ###################################
+Sentence-214:before pushing the triangle to the middle please put it to the left
+True Roles :: X4-P1 X1-P2 X5-L1 X2-S2 X2-S1 X3-L2
+Pred Roles :: X5-S1 X4-P1 X1-P2 X2-S2 X2-S1 X3-L2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 216-fold ###################################
+Sentence-215:before pushing the triangle to the middle please push the cross to the right
+True Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+Pred Roles :: X1-P2 X5-L1 X3-L2 X4-P1 X2-S2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 217-fold ###################################
+Sentence-216:before putting the circle to the left put the triangle to the middle
+True Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+Pred Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 218-fold ###################################
+Sentence-217:before rotating the red cross on itself please put it to the right
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X4-L2 X4-P1 X1-P2 X1-S1 X3-P1 X2-S2 X3-L2 X2-P1
+All Correct :: False
+Error % :: 60.0
+
+################################### 219-fold ###################################
+Sentence-218:after pushing the triangle to the middle please put the circle to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 220-fold ###################################
+Sentence-219:after putting the circle to the right put the cross to the right too
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P2 X1-P1 X2-S1 X3-L1
+All Correct :: False
+Error % :: 0.0
+
+################################### 221-fold ###################################
+Sentence-220:put the triangle to the middle and to the right
+True Roles :: X4-L2 X1-P2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X1-P2 X1-P1 X3-L1 X2-S1
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 222-fold ###################################
+Sentence-221:before pushing the circle to the left please push it to the right
+True Roles :: X4-P1 X1-P2 X5-L1 X2-S2 X2-S1 X3-L2
+Pred Roles :: X1-P2 X5-S1 X3-L2 X4-P1 X2-S2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 223-fold ###################################
+Sentence-222:point to the circle
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 224-fold ###################################
+Sentence-223:grasp the cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 225-fold ###################################
+Sentence-224:touch the cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 226-fold ###################################
+Sentence-225:put the cross on the right
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 227-fold ###################################
+Sentence-226:push the triangle over to the left
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 228-fold ###################################
+Sentence-227:point to the triangle and grasp the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 229-fold ###################################
+Sentence-228:point to the triangle and touch the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 230-fold ###################################
+Sentence-229:grasp the cross and point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 231-fold ###################################
+Sentence-230:touch the cross and point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 232-fold ###################################
+Sentence-231:grasp the circle and then point to it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 233-fold ###################################
+Sentence-232:touch the circle and then point to it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 234-fold ###################################
+Sentence-233:point to the triangle and then grasp it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 235-fold ###################################
+Sentence-234:point to the triangle and then touch it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 236-fold ###################################
+Sentence-235:pick up the triangle and then pick up the cross
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-L2 X1-P1 X2-S1 X4-P2 X3-S2
+All Correct :: False
+Error % :: 50.0
+
+################################### 237-fold ###################################
+Sentence-236:touch the triangle then touch the cross
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 238-fold ###################################
+Sentence-237:point to the cross then point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 239-fold ###################################
+Sentence-238:point to the cross twice
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 240-fold ###################################
+Sentence-239:pick up the circle twice
+True Roles :: X1-P2 X1-P1 X2-S2 X2-S1 X3-L1 X3-L2
+Pred Roles :: X1-P2 X1-P1 X2-S2 X2-S1 X3-L1 X3-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 241-fold ###################################
+Sentence-240:touch the circle twice
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 242-fold ###################################
+Sentence-241:point to the triangle and then move the circle to the middle
+True Roles :: X5-L2 X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X5-L2 X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 243-fold ###################################
+Sentence-242:move the cross to the left and then pick up the circle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X5-L1 X1-P1 X2-S2 X2-S1 X3-P2 X3-L1 X4-S2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 244-fold ###################################
+Sentence-243:move the cross to the left then touch the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 245-fold ###################################
+Sentence-244:move the cross to the right then point to it
+True Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 246-fold ###################################
+Sentence-245:pick up the triangle then move it left
+True Roles :: X3-S2 X4-P2 X5-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 247-fold ###################################
+Sentence-246:touch the triangle then move it to the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 248-fold ###################################
+Sentence-247:move the triangle to the center and the cross to the right
+True Roles :: X1-P2 X5-L2 X1-P1 X2-S1 X3-L1 X4-S2
+Pred Roles :: X1-P2 X1-P1 X3-L1 X2-S1 X4-S2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 249-fold ###################################
+Sentence-248:move the circle to the left then the cross to the middle
+True Roles :: X1-P2 X5-L2 X1-P1 X2-S1 X3-L1 X4-S2
+Pred Roles :: X1-P2 X1-P1 X3-L1 X2-S1 X4-S2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 250-fold ###################################
+Sentence-249:push the circle to the middle and then put it to the left
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 251-fold ###################################
+Sentence-250:put the triangle on the left and then push it in the middle
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 252-fold ###################################
+Sentence-251:push the cross to the right and push the triangle to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 253-fold ###################################
+Sentence-252:put the cross in the middle and put the circle on the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 254-fold ###################################
+Sentence-253:put the cross on the left and push it back to the left
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 255-fold ###################################
+Sentence-254:push the triangle in the middle and put the circle in the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 256-fold ###################################
+Sentence-255:push the triangle to the left and push the cross to the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 257-fold ###################################
+Sentence-256:put the circle on the right and the cross on the right
+True Roles :: X1-P2 X5-L2 X1-P1 X2-S1 X3-L1 X4-S2
+Pred Roles :: X1-P2 X1-P1 X3-L1 X2-S1
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 258-fold ###################################
+Sentence-257:put the triangle in the middle then put it on the left
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 259-fold ###################################
+Sentence-258:push the circle to the right then push the circle to the left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 260-fold ###################################
+Sentence-259:the circle point to it
+True Roles :: X2-P1 X1-S1
+Pred Roles :: X2-P1 X1-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 261-fold ###################################
+Sentence-260:the cross grasp it
+True Roles :: X2-P1 X1-S1
+Pred Roles :: X2-P1 X1-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 262-fold ###################################
+Sentence-261:the cross touch it
+True Roles :: X2-P1 X1-S1
+Pred Roles :: X2-P1 X1-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 263-fold ###################################
+Sentence-262:the cross put it on the right
+True Roles :: X2-P1 X3-L1 X1-S1
+Pred Roles :: X2-P1 X3-L1 X1-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 264-fold ###################################
+Sentence-263:the triangle push it over to the left
+True Roles :: X2-P1 X3-L1 X1-S1
+Pred Roles :: X2-P1 X1-S1
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 265-fold ###################################
+Sentence-264:after pointing to the triangle grasp the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 266-fold ###################################
+Sentence-265:touch the circle after youve pointed the triangle
+True Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+Pred Roles :: X4-P2
+All Correct :: False
+Error % :: 100.0
+
+################################### 267-fold ###################################
+Sentence-266:grasp the cross before pointing to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 268-fold ###################################
+Sentence-267:after touching the cross point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X3-P1 X1-P1 X4-S1 X2-S1
+All Correct :: False
+Error % :: 50.0
+
+################################### 269-fold ###################################
+Sentence-268:point to the circle after having grasped it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S2
+All Correct :: False
+Error % :: 25.0
+
+################################### 270-fold ###################################
+Sentence-269:point to the circle after having touched it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 271-fold ###################################
+Sentence-270:grasp the triangle after having pointed to it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X3-P2 X2-S2
+All Correct :: False
+Error % :: 0.0
+
+################################### 272-fold ###################################
+Sentence-271:touch the triangle after having touched it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 273-fold ###################################
+Sentence-272:after picking up the triangle pick up the cross
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 274-fold ###################################
+Sentence-273:before touching the triangle touch the cross
+True Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+Pred Roles :: X4-P1 X1-P2 X2-S2 X2-S1 X3-P2 X4-S2
+All Correct :: False
+Error % :: 50.0
+
+################################### 275-fold ###################################
+Sentence-274:after pointing to the cross point to the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 276-fold ###################################
+Sentence-275:point to the cross then do it again
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X2-S2 X1-P1 X2-S1
+All Correct :: False
+Error % :: 25.0
+
+################################### 277-fold ###################################
+Sentence-276:pick up the circle twice in a row
+True Roles :: X1-P2 X1-P1 X2-S2 X2-S1 X3-L1 X3-L2
+Pred Roles :: X1-P2 X1-P1 X2-S2 X2-S1 X3-L1 X3-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 278-fold ###################################
+Sentence-277:the circle touch it twice
+True Roles :: X2-P2 X2-P1 X1-S2 X1-S1
+Pred Roles :: X1-P2 X2-P1 X2-S2 X1-S1
+All Correct :: False
+Error % :: 50.0
+
+################################### 279-fold ###################################
+Sentence-278:move the circle to the middle after having pointed to the triangle
+True Roles :: X1-P2 X5-S1 X3-L2 X4-P1 X2-S2
+Pred Roles :: X1-P2 X5-S1 X3-L2 X4-S1 X2-S2
+All Correct :: False
+Error % :: 20.0
+
+################################### 280-fold ###################################
+Sentence-279:before you pick up the circle move the cross to the left
+True Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+Pred Roles :: X3-S2 X5-L2 X3-L1 X6-L1 X1-P2 X2-S2 X4-S1
+All Correct :: False
+Error % :: 50.0
+
+################################### 281-fold ###################################
+Sentence-280:after moving the cross to the left touch the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 282-fold ###################################
+Sentence-281:point to the cross after having moved it to the right
+True Roles :: X3-P1 X1-P2 X2-S1 X4-L1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S2
+All Correct :: False
+Error % :: 40.0
+
+################################### 283-fold ###################################
+Sentence-282:before moving the triangle left pick it up
+True Roles :: X4-P1 X1-P2 X5-L1 X2-S2 X2-S1 X3-L2
+Pred Roles :: X5-S2 X4-P1 X1-P2 X2-S2 X2-S1 X3-L2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 284-fold ###################################
+Sentence-283:touch and move the triangle to the left
+True Roles :: X3-S1 X1-P1 X2-P2 X3-S2 X4-L2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: False
+Error % :: 80.0
+
+################################### 285-fold ###################################
+Sentence-284:before moving the cross to the right move the cross to the center
+True Roles :: X5-S2 X4-P1 X6-L1 X1-P2 X2-S1 X3-L2
+Pred Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 286-fold ###################################
+Sentence-285:before moving the circle to the middle move the cross to the left
+True Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+Pred Roles :: X5-S2 X4-P1 X6-L1 X1-P2 X2-S1 X3-L2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 287-fold ###################################
+Sentence-286:after pushing the circle to the left put the cross in the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 288-fold ###################################
+Sentence-287:after pushing the circle to the middle put it back on the left
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X2-S2 X2-S1 X3-L1 X4-P2 X5-L2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 289-fold ###################################
+Sentence-288:after putting the triangle then push it back to the middle
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X4-P2 X1-P1 X2-S2 X2-S1 X3-P2 X3-L1
+All Correct :: False
+Error % :: 20.0
+
+################################### 290-fold ###################################
+Sentence-289:after pushing the triangle to the right push the cross to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 291-fold ###################################
+Sentence-290:put the cross on the middle and the circle on the left
+True Roles :: X1-P2 X5-L2 X1-P1 X2-S1 X3-L1 X4-S2
+Pred Roles :: X1-P2 X5-L2 X1-P1 X2-S1 X3-L1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 292-fold ###################################
+Sentence-291:push the cross around the left after putting it first on the left
+True Roles :: X4-P1 X1-P2 X5-L2 X2-S2 X2-S1 X3-L1
+Pred Roles :: X5-S1 X5-L2 X1-P2 X2-S2 X3-L2 X4-S1 X4-S2
+All Correct :: False
+Error % :: 50.0
+
+################################### 293-fold ###################################
+Sentence-292:push to the triangle to the middle followed by putting the circle to the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S1 X4-P2 X6-L2 X5-L2 X1-P1 X3-L1
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 294-fold ###################################
+Sentence-293:push both the triangle and the cross to the left
+True Roles :: X4-L1 X4-L2 X3-S2 X1-P2 X1-P1 X2-S1
+Pred Roles :: X4-L1 X4-L2 X3-S2 X1-P2 X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 295-fold ###################################
+Sentence-294:put both the circle and the cross on the right
+True Roles :: X4-L1 X4-L2 X3-S2 X1-P2 X1-P1 X2-S1
+Pred Roles :: X4-L1 X4-L2 X3-S2 X1-P2 X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 296-fold ###################################
+Sentence-295:move the triangle to the middle and to the left
+True Roles :: X4-L2 X1-P2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X1-P2 X1-P1 X3-L1 X2-S1 X4-S2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 297-fold ###################################
+Sentence-296:push the circle to the left and then all the way to the right
+True Roles :: X4-L2 X1-P2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X1-P2 X1-P1 X3-L1 X2-S1
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 298-fold ###################################
+Sentence-297:point circle
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 299-fold ###################################
+Sentence-298:grasp cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 300-fold ###################################
+Sentence-299:hit cross
+True Roles :: X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 301-fold ###################################
+Sentence-300:put the cross on the right
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 302-fold ###################################
+Sentence-301:push triangle on the left
+True Roles :: X1-P1 X3-L1 X2-S1
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 303-fold ###################################
+Sentence-302:point triangle and grasp circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 304-fold ###################################
+Sentence-303:point triangle and hit circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 305-fold ###################################
+Sentence-304:grasp cross and point circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 306-fold ###################################
+Sentence-305:hit cross and point circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 307-fold ###################################
+Sentence-306:grasp circle and point it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 308-fold ###################################
+Sentence-307:hit the circle and point it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 309-fold ###################################
+Sentence-308:point triangle and grasp it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 310-fold ###################################
+Sentence-309:point triangle and hit it
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 311-fold ###################################
+Sentence-310:grasp triangle and grasp cross
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 312-fold ###################################
+Sentence-311:hit triangle and hit cross
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 313-fold ###################################
+Sentence-312:point the cross and point the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 314-fold ###################################
+Sentence-313:point cross two times
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 315-fold ###################################
+Sentence-314:grasp circle two times
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 316-fold ###################################
+Sentence-315:hit circle hit circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 317-fold ###################################
+Sentence-316:point triangle and put circle in the middle
+True Roles :: X5-L2 X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1
+All Correct :: False
+Error % :: 40.0
+
+################################### 318-fold ###################################
+Sentence-317:put the cross in left and grasp the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 319-fold ###################################
+Sentence-318:put the cross on the left and hit the circle
+True Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 320-fold ###################################
+Sentence-319:put the cross on right and point it
+True Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 321-fold ###################################
+Sentence-320:after grasp the triangle put it on the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 322-fold ###################################
+Sentence-321:hit triangle and put it on the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 323-fold ###################################
+Sentence-322:put the triangle in the middle and put it in the right
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 324-fold ###################################
+Sentence-323:put the circle in left and push the cross in the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X1-P1 X6-L2 X2-S1 X4-P2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 325-fold ###################################
+Sentence-324:push the circle on the left and put the cross in the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X6-L2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 326-fold ###################################
+Sentence-325:push the circle in the middle and put it in the right
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 327-fold ###################################
+Sentence-326:put the triangle on left and push it in the middle
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 328-fold ###################################
+Sentence-327:push the cross on right and push triangle in the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 329-fold ###################################
+Sentence-328:put the triangle in the middle and put the circle on left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 330-fold ###################################
+Sentence-329:put the cross on right and push it in right too
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X2-S2 X1-P1 X3-L1 X5-L2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 331-fold ###################################
+Sentence-330:push the triangle on the middle and put the circle in the middle
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 332-fold ###################################
+Sentence-331:push triangle and push cross in left
+True Roles :: X1-P1 X5-L2 X5-L1 X2-S1 X3-P2 X4-S2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: False
+Error % :: 66.6666666667
+
+################################### 333-fold ###################################
+Sentence-332:put the cross in right and put the circle in right
+True Roles :: X3-P2 X5-L2 X1-P1 X2-L1 X4-S1 X4-S2
+Pred Roles :: X5-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: False
+Error % :: 83.3333333333
+
+################################### 334-fold ###################################
+Sentence-333:put the triangle in the middle and put it on left
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+All Correct :: True
+Error % :: 0.0
+
+################################### 335-fold ###################################
+Sentence-334:push circle on right and push circle on left
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X4-P2 X6-L2 X5-L2 X1-P1 X2-S1 X3-P2 X3-L1
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 336-fold ###################################
+Sentence-335:circle is pointed
+True Roles :: X2-P1 X1-S1
+Pred Roles :: X2-P1 X1-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 337-fold ###################################
+Sentence-336:cross is pointed
+True Roles :: X2-P1 X1-S1
+Pred Roles :: X2-P1 X1-S1
+All Correct :: True
+Error % :: 0.0
+
+################################### 338-fold ###################################
+Sentence-337:cross is hit
+True Roles :: X2-P1 X1-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: False
+Error % :: 100.0
+
+################################### 339-fold ###################################
+Sentence-338:on the right put the cross
+True Roles :: X3-S1 X1-L1 X2-P1
+Pred Roles :: X3-S1 X1-L1 X2-P1
+All Correct :: True
+Error % :: 0.0
+
+################################### 340-fold ###################################
+Sentence-339:on the left push triangle
+True Roles :: X3-S1 X1-L1 X2-P1
+Pred Roles :: X3-S1 X1-L1 X2-P1
+All Correct :: True
+Error % :: 0.0
+
+################################### 341-fold ###################################
+Sentence-340:before grasp circle point triangle
+True Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+All Correct :: False
+Error % :: 25.0
+
+################################### 342-fold ###################################
+Sentence-341:before hit circle point triangle
+True Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X4-S1 X2-S2
+All Correct :: False
+Error % :: 0.0
+
+################################### 343-fold ###################################
+Sentence-342:before grasp cross point circle
+True Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 344-fold ###################################
+Sentence-343:before hit cross point circle
+True Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 345-fold ###################################
+Sentence-344:before point it grasp circle
+True Roles :: X1-P2 X3-S2 X3-S1 X2-P1
+Pred Roles :: X3-P1 X1-P2 X2-S2
+All Correct :: False
+Error % :: 75.0
+
+################################### 346-fold ###################################
+Sentence-345:before point the circle hit it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X1-P2 X2-S1 X2-S2
+All Correct :: False
+Error % :: 25.0
+
+################################### 347-fold ###################################
+Sentence-346:before grasp triangle point it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 348-fold ###################################
+Sentence-347:before point triangle hit it
+True Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+Pred Roles :: X3-P1 X1-P2 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 349-fold ###################################
+Sentence-348:grasp triangle before the cross
+True Roles :: X1-P2 X1-P1 X2-S1 X3-S2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1
+All Correct :: False
+Error % :: 50.0
+
+################################### 350-fold ###################################
+Sentence-349:hit the triangle before hit the cross
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 351-fold ###################################
+Sentence-350:before point circle point cross
+True Roles :: X2-S2 X1-P1 X3-P2 X4-S1
+Pred Roles :: X3-P1 X2-S2 X2-S1 X1-P2
+All Correct :: False
+Error % :: 75.0
+
+################################### 352-fold ###################################
+Sentence-351:two times point cross
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 353-fold ###################################
+Sentence-352:two times grasp circle
+True Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+Pred Roles :: X1-P2 X1-P1 X2-S1 X2-S2
+All Correct :: True
+Error % :: 0.0
+
+################################### 354-fold ###################################
+Sentence-353:before hit the circle hit the circle
+True Roles :: X1-P1 X3-P2 X2-S1 X4-S2
+Pred Roles :: X3-P1 X1-P2 X4-S1 X2-S2
+All Correct :: False
+Error % :: 100.0
+
+################################### 355-fold ###################################
+Sentence-354:before put circle in the middle point the triangle
+True Roles :: X1-P2 X5-S1 X3-L2 X4-P1 X2-S2
+Pred Roles :: X4-S2 X1-P2 X5-S1 X3-L2 X2-S2
+All Correct :: False
+Error % :: 20.0
+
+################################### 356-fold ###################################
+Sentence-355:grasp the circle but before put the cross on the left
+True Roles :: X3-P1 X1-P2 X5-L1 X4-S1 X2-S2
+Pred Roles :: X1-P1 X3-P2
+All Correct :: False
+Error % :: 100.0
+
+################################### 357-fold ###################################
+Sentence-356:before hit the circle put the cross on the left
+True Roles :: X3-P1 X1-P2 X5-L1 X4-S1 X2-S2
+Pred Roles :: X2-S2 X1-P1 X2-S1
+All Correct :: False
+Error % :: 80.0
+
+################################### 358-fold ###################################
+Sentence-357:put the cross on right before point it
+True Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+Pred Roles :: X2-S2 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: True
+Error % :: 0.0
+
+################################### 359-fold ###################################
+Sentence-358:before put the triangle on left grasp it
+True Roles :: X1-P2 X2-S1 X3-L2 X4-P1 X2-S2
+Pred Roles :: X2-S2 X2-S1 X1-P1 X4-P2 X3-L2
+All Correct :: False
+Error % :: 40.0
+
+################################### 360-fold ###################################
+Sentence-359:after hit triangle put it on the left
+True Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+Pred Roles :: X2-S2 X1-P1 X3-P2 X2-S1 X4-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 361-fold ###################################
+Sentence-360:before put the cross in right put the triangle in the middle
+True Roles :: X5-S1 X4-P2 X6-L1 X1-P1 X2-S2 X3-L2
+Pred Roles :: X2-S2 X4-S1 X1-P2 X3-L2
+All Correct :: False
+Error % :: 66.6666666667
+
+################################### 362-fold ###################################
+Sentence-361:on the left put the cross and push it in the middle
+True Roles :: X3-S1 X3-S2 X4-P2 X1-L1 X5-L2 X2-P1
+Pred Roles :: X3-S1 X3-S2 X4-P2 X1-L1 X5-L2 X2-P1
+All Correct :: True
+Error % :: 0.0
+
+################################### 363-fold ###################################
+Sentence-362:before put the cross in the middle push the circle on the left
+True Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+Pred Roles :: X5-S1 X4-P1 X6-L1 X1-P2 X2-S2 X3-L2
+All Correct :: True
+Error % :: 0.0
+
+################################### 364-fold ###################################
+Sentence-363:before put in the right push the circle in the middle
+True Roles :: X1-P2 X5-L1 X3-P1 X2-L2 X4-S1 X4-S2
+Pred Roles :: X5-S1 X4-P1 X4-P2 X1-P1 X2-S2 X2-S1 X3-L2
+All Correct :: False
+Error % :: 100.0
+
+################################### 365-fold ###################################
+Sentence-364:on left put the triangle and push it in the middle
+True Roles :: X3-S1 X3-S2 X4-P2 X1-L1 X5-L2 X2-P1
+Pred Roles :: X3-S1 X3-S2 X4-P2 X1-L1 X5-L2 X2-S2 X2-P1
+All Correct :: False
+Error % :: 0.0
+
+################################### 366-fold ###################################
+Sentence-365:push the cross on right and triangle in the middle
+True Roles :: X1-P2 X5-L2 X1-P1 X2-S1 X3-L1 X4-S2
+Pred Roles :: X1-P1 X3-L1 X2-S1
+All Correct :: False
+Error % :: 50.0
+
+################################### 367-fold ###################################
+Sentence-366:on the middle put the triangle and put the circle in left
+True Roles :: X5-S2 X3-S1 X4-P2 X6-L2 X1-L1 X2-P1
+Pred Roles :: X5-L2 X1-P1 X6-L2 X2-S1 X4-P2
+All Correct :: False
+Error % :: 66.6666666667
+
+################################### 368-fold ###################################
+Sentence-367:before push the cross on right put it here
+True Roles :: X4-P1 X1-P2 X5-L1 X2-S2 X2-S1 X3-L2
+Pred Roles :: X5-S1 X1-P2 X1-P1 X2-S2 X2-S1 X3-L2
+All Correct :: False
+Error % :: 33.3333333333
+
+################################### 369-fold ###################################
+Sentence-368:in first push the triangle in middle and put the circle in the right
+True Roles :: X5-S2 X4-P2 X6-L2 X1-P1 X2-S1 X3-L1
+Pred Roles :: X4-S1 X6-L2 X2-P1 X3-P2 X3-L1 X4-S2
+All Correct :: False
+Error % :: 66.6666666667
+
+################################### 370-fold ###################################
+Sentence-369:in left push the triangle and the cross
+True Roles :: X3-S1 X1-L2 X1-L1 X2-P1 X2-P2 X4-S2
+Pred Roles :: X1-P2 X1-P1 X3-L1 X2-S1 X3-S2
+All Correct :: False
+Error % :: 100.0
+
+################################### 371-fold ###################################
+Sentence-370:put the circle and the cross in right
+True Roles :: X4-L1 X4-L2 X3-S2 X1-P2 X1-P1 X2-S1
+Pred Roles :: X1-P1 X2-S1
+All Correct :: False
+Error % :: 66.6666666667
+
+################################### 372-fold ###################################
+Sentence-371:before put the triangle on left put it in the middle
+True Roles :: X4-P2 X1-P1 X5-L1 X2-S2 X2-S1 X3-L2
+Pred Roles :: X5-S1 X4-P1 X4-P2 X1-P1 X2-S2 X2-S1 X3-L2
+All Correct :: False
+Error % :: 16.6666666667
+
+################################### 373-fold ###################################
+Sentence-372:push the circle on right before push it in left
+True Roles :: X4-P2 X5-L2 X1-P1 X2-S2 X2-S1 X3-L1
+Pred Roles :: X5-L1 X1-P1 X3-L1 X2-S1 X4-P2
+All Correct :: False
+Error % :: 33.3333333333
+
